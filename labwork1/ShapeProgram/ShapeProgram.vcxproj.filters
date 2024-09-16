@@ -48,6 +48,12 @@
     <ClCompile Include="color.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClCompile>
+    <ClCompile Include="shapeCreator.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="shapeCreator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ICanvas.hpp">

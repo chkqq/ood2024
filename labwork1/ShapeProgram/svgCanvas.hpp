@@ -4,13 +4,15 @@
 #include "icanvas.hpp"
 #include <fstream>
 
-namespace gfx
+namespace gfx 
 {
+
     class SVGCanvas : public ICanvas
     {
     private:
         std::ofstream file;
         Color currentColor;
+        bool isOpen;
 
     public:
         SVGCanvas(const std::string& filename);
@@ -22,7 +24,11 @@ namespace gfx
         void DrawLine(double x1, double y1, double x2, double y2) override;
         void DrawTriangle(double x1, double y1, double x2, double y2, double x3, double y3) override;
         void DrawText(double left, double top, double fontSize, const std::string& text) override;
+
+    private:
+        void OpenOrCreateFile(const std::string& filename);
     };
+
 }
 
-#endif
+#endif 

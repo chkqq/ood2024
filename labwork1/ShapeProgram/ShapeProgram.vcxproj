@@ -136,6 +136,8 @@
     <ClCompile Include="picture.cpp" />
     <ClCompile Include="rectangle.cpp" />
     <ClCompile Include="shape.cpp" />
+    <ClCompile Include="shapeCreator.cpp" />
+    <ClCompile Include="shapeCreator.hpp" />
     <ClCompile Include="text.cpp" />
     <ClCompile Include="triangle.cpp" />
   </ItemGroup>

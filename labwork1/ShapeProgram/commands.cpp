@@ -1,51 +1,10 @@
 #include "commands.hpp"
 #include <sstream>
 #include <iostream>
-#include "svgCanvas.hpp"
-#include "circle.hpp"
-#include "rectangle.hpp"
-#include "triangle.hpp"
-#include "line.hpp"
-#include "text.hpp"
+#include "shapeCreator.hpp"
 
 namespace commands 
 {
-    std::shared_ptr<shapes::Shape> CreateShape(const std::string& shapeType, const std::string& id, std::istringstream& iss, const std::string& color) 
-    {
-        if (shapeType == "circle") 
-        {
-            double x, y, r;
-            iss >> x >> y >> r;
-            return std::make_shared<shapes::Circle>(id, x, y, r, gfx::Color(color));
-        }
-        if (shapeType == "rectangle") 
-        {
-            double left, top, width, height;
-            iss >> left >> top >> width >> height;
-            return std::make_shared<shapes::Rectangle>(id, left, top, width, height, gfx::Color(color));
-        }
-        if (shapeType == "triangle")
-        {
-            double x1, y1, x2, y2, x3, y3;
-            iss >> x1 >> y1 >> x2 >> y2 >> x3 >> y3;
-            return std::make_shared<shapes::Triangle>(id, x1, y1, x2, y2, x3, y3, gfx::Color(color));
-        }
-        if (shapeType == "line") 
-        {
-            double x1, y1, x2, y2;
-            iss >> x1 >> y1 >> x2 >> y2;
-            return std::make_shared<shapes::Line>(id, x1, y1, x2, y2, gfx::Color(color));
-        }
-        if (shapeType == "text")
-        {
-            double left, top, fontSize;
-            std::string text;
-            iss >> left >> top >> fontSize;
-            std::getline(iss, text);
-            return std::make_shared<shapes::Text>(id, left, top, fontSize, text, gfx::Color(color));
-        }
-        return nullptr;
-    }
 
     bool HandleAddShape(std::istringstream& iss, shapes::Picture& picture)
     {
@@ -54,7 +13,7 @@ namespace commands
 
         if (picture.GetShapeByID(id) != nullptr) 
         {
-            std::cerr << "Shape with id '" << id << "' already exists. Use ChangeShape to modify the existing shape." << std::endl;
+            std::cout << "Shape with id '" << id << "' already exists. Use ChangeShape to modify the existing shape." << std::endl;
             return false;
         }
 
@@ -66,7 +25,7 @@ namespace commands
         }
         else 
         {
-            std::cerr << "Unknown shape type: " << shapeType << std::endl;
+            std::cout << "Unknown shape type: " << shapeType << std::endl;
             return false;
         }
     }
@@ -79,7 +38,7 @@ namespace commands
         auto oldShape = picture.GetShapeByID(id);
         if (!oldShape)
         {
-            std::cerr << "Shape with id '" << id << "' not found!" << std::endl;
+            std::cout << "Shape with id '" << id << "' not found!" << std::endl;
             return false;
         }
 
@@ -91,7 +50,7 @@ namespace commands
         }
         else
         {
-            std::cerr << "Unknown shape type: " << shapeType << std::endl;
+            std::cout << "Unknown shape type: " << shapeType << std::endl;
             return false;
         }
     }
@@ -140,6 +99,24 @@ namespace commands
             picture.Draw(canvas);
             return true;
         }
+        else if (cmd == "DrawShape")
+        {
+            std::string id;
+            iss >> id;
+
+            auto shape = picture.GetShapeByID(id);
+            if (shape)
+            {
+                gfx::SVGCanvas canvas("shape_" + id + ".svg");
+                shape->Draw(canvas); 
+                return true;
+            }
+            else
+            {
+                std::cout << "Shape with id " << id << " not found." << std::endl;
+                return false;
+            }
+        }
         else if (cmd == "MoveShape")
         {
             std::string id;
@@ -154,7 +131,7 @@ namespace commands
             }
             else 
             {
-                std::cerr << "Shape with id " << id << " not found." << std::endl;
+                std::cout << "Shape with id " << id << " not found." << std::endl;
                 return false;
             }
         }
@@ -170,7 +147,25 @@ namespace commands
             }
             else 
             {
-                std::cerr << "Shape with id " << id << " not found." << std::endl;
+                std::cout << "Shape with id " << id << " not found." << std::endl;
+                return false;
+            }
+        }
+        else if (cmd == "DrawShape")
+        {
+            std::string id;
+            iss >> id;
+
+            auto shape = picture.GetShapeByID(id);
+            if (shape)
+            {
+                gfx::SVGCanvas canvas("output.svg");
+                shape->Draw(canvas);
+                return true;
+            }
+            else
+            {
+                std::cout << "Shape with id " << id << " not found." << std::endl;
                 return false;
             }
         }
