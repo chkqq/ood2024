@@ -2,10 +2,11 @@
 #define COMMANDS_HPP
 
 #include <string>
-#include "shapes.hpp"
+#include "shape.hpp"
+#include "picture.hpp"
 
 namespace commands {
     bool ExecuteCommand(const std::string& command, shapes::Picture& picture);
 }
 
-#endif // COMMANDS_HPP
+#endif

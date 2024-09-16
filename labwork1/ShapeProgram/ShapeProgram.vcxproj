@@ -128,14 +128,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="canvas.cpp" />
+    <ClCompile Include="circle.cpp" />
+    <ClCompile Include="color.hpp" />
     <ClCompile Include="commands.cpp" />
+    <ClCompile Include="line.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="shapes.cpp" />
+    <ClCompile Include="picture.cpp" />
+    <ClCompile Include="rectangle.cpp" />
+    <ClCompile Include="shape.cpp" />
+    <ClCompile Include="text.cpp" />
+    <ClCompile Include="triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="canvas.hpp" />
+    <ClInclude Include="ICanvas.hpp" />
+    <ClInclude Include="circle.hpp" />
     <ClInclude Include="commands.hpp" />
-    <ClInclude Include="shapes.hpp" />
+    <ClInclude Include="line.hpp" />
+    <ClInclude Include="picture.hpp" />
+    <ClInclude Include="rectangle.hpp" />
+    <ClInclude Include="shape.hpp" />
+    <ClInclude Include="svgCanvas.hpp" />
+    <ClInclude Include="text.hpp" />
+    <ClInclude Include="triangle.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
