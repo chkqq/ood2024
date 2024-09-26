@@ -1,0 +1,72 @@
+﻿  CircleShape.cpp
+D:\oodxerogi2k\labwork1\shapesSFML\CircleShape.cpp(25,21): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  InputParser.cpp
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(26,70): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(26,66): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(26,50): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(37,78): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(37,69): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(37,102): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(37,98): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(50,69): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(50,65): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(50,91): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(50,87): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(50,113): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\oodxerogi2k\labwork1\shapesSFML\InputParser.cpp(50,109): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  RectangleShape.cpp
+  TriangleShape.cpp
+D:\oodxerogi2k\labwork1\shapesSFML\TriangleShape.cpp(22,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\oodxerogi2k\labwork1\shapesSFML\TriangleShape.cpp(24,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\oodxerogi2k\labwork1\shapesSFML\TriangleShape.cpp(26,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  main.cpp
+  Создание кода...
+  shapesSFML.vcxproj -> D:\oodxerogi2k\labwork1\x64\Debug\shapesSFML.exe

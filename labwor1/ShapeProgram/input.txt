@@ -1,0 +1,2 @@
+AddShape sh1 #ff00ff circle 100 110 15
+AddShape sh2 #ff0000 rectangle 10 20 30 40
