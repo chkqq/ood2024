@@ -1,8 +1,11 @@
 #include "FileManager.h"
 #include "ShapeCreator.h"
-#include "CircleShape.h"
-#include "RectangleShape.h"
-#include "TriangleShape.h"
+#include "Circle.h"
+#include "Rectangle.h"
+#include "Triangle.h"
+#include "CircleDecorator.h"
+#include "RectangleDecorator.h"
+#include "TriangleDecorator.h"
 #include <fstream>
 #include <sstream>
 #include <map>

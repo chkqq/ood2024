@@ -1,2 +1,81 @@
-﻿  FileManager.cpp
-  shapesSFML.vcxproj -> D:\ood2024\labwork1\x64\Debug\shapesSFML.exe
+﻿  ShapeCreator.cpp
+E:\edu\ood\ood2024\labwork1\shapesSFML\Circle.h(27,25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "ShapeCreator.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Circle.h(32,44): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "ShapeCreator.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(28,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "ShapeCreator.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(30,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "ShapeCreator.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(32,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "ShapeCreator.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,63): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,63): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,63): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,63): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,63): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,59): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,59): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,59): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,59): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,59): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,43): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(29,90): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,74): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,74): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,74): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,74): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,74): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,65): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,65): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,65): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,65): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,65): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,98): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,98): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,98): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,98): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,98): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,94): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,94): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,94): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,94): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,94): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(56,125): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,64): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,64): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,64): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,64): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,64): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,60): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,60): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,60): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,60): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,60): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,86): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,86): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,86): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,86): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,86): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,82): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,82): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,82): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,82): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,82): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,108): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,108): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,108): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,108): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,108): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,104): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,104): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,104): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,104): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,104): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(84,135): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  shapesSFML.vcxproj -> E:\edu\ood\ood2024\labwork1\x64\Debug\shapesSFML.exe

@@ -1,15 +1,35 @@
 #ifndef SHAPEDECORATOR_H
 #define SHAPEDECORATOR_H
 
-#include <SFML/Graphics.hpp>
+#include "Shape.h"
 
-class ShapeDecorator 
+class ShapeDecorator : public Shape
 {
+protected:
+    Shape* m_shape;
+
 public:
-    virtual void Draw(sf::RenderWindow& window) = 0;
-    virtual float GetPerimeter() const = 0;
-    virtual float GetArea() const = 0;
-    virtual ~ShapeDecorator() = default;
+    ShapeDecorator(Shape* shape) : m_shape(shape) {}
+
+    void Draw(sf::RenderWindow& window) override
+    {
+        m_shape->Draw(window);
+    }
+
+    float GetPerimeter() const override
+    {
+        return m_shape->GetPerimeter();
+    }
+
+    float GetArea() const override
+    {
+        return m_shape->GetArea();
+    }
+
+    ~ShapeDecorator() override
+    {
+        delete m_shape;
+    }
 };
 
 #endif

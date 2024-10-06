@@ -1,0 +1,308 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\edu\\ood\\ood2024\\labwork1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeCreator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\ShapeCreator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\FileManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\FileManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\TriangleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\TriangleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\RectangleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\RectangleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\CircleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\CircleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\ShapeManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\Rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\ShapeDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\ShapeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\EventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\EventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeCreator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\ShapeCreator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\EventManger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\EventManger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\Shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\FileManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F530286C-46FD-496A-AA44-5853346167C3}|shapesSFML\\shapesSFML.vcxproj|solutionrelative:shapesSFML\\FileManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShapeCreator.cpp",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeCreator.cpp",
+              "RelativeDocumentMoniker": "shapesSFML\\ShapeCreator.cpp",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeCreator.cpp",
+              "RelativeToolTip": "shapesSFML\\ShapeCreator.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwCQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-06T16:16:43.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RectangleDecorator.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\RectangleDecorator.h",
+              "RelativeDocumentMoniker": "shapesSFML\\RectangleDecorator.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\RectangleDecorator.h",
+              "RelativeToolTip": "shapesSFML\\RectangleDecorator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:41:07.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Rectangle.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Rectangle.h",
+              "RelativeDocumentMoniker": "shapesSFML\\Rectangle.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Rectangle.h",
+              "RelativeToolTip": "shapesSFML\\Rectangle.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:16:43.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TriangleDecorator.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\TriangleDecorator.h",
+              "RelativeDocumentMoniker": "shapesSFML\\TriangleDecorator.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\TriangleDecorator.h",
+              "RelativeToolTip": "shapesSFML\\TriangleDecorator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:42:50.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShapeDecorator.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeDecorator.h",
+              "RelativeDocumentMoniker": "shapesSFML\\ShapeDecorator.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeDecorator.h",
+              "RelativeToolTip": "shapesSFML\\ShapeDecorator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:16:43.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShapeManager.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeManager.h",
+              "RelativeDocumentMoniker": "shapesSFML\\ShapeManager.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeManager.h",
+              "RelativeToolTip": "shapesSFML\\ShapeManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:16:43.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileManager.cpp",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\FileManager.cpp",
+              "RelativeDocumentMoniker": "shapesSFML\\FileManager.cpp",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\FileManager.cpp",
+              "RelativeToolTip": "shapesSFML\\FileManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswC8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-06T16:16:43.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.cpp",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\main.cpp",
+              "RelativeDocumentMoniker": "shapesSFML\\main.cpp",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\main.cpp",
+              "RelativeToolTip": "shapesSFML\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-06T16:16:43.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShapeManager.cpp",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeManager.cpp",
+              "RelativeDocumentMoniker": "shapesSFML\\ShapeManager.cpp",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeManager.cpp",
+              "RelativeToolTip": "shapesSFML\\ShapeManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-06T16:16:43.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CircleDecorator.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\CircleDecorator.h",
+              "RelativeDocumentMoniker": "shapesSFML\\CircleDecorator.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\CircleDecorator.h",
+              "RelativeToolTip": "shapesSFML\\CircleDecorator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:37:34.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventManager.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\EventManager.h",
+              "RelativeDocumentMoniker": "shapesSFML\\EventManager.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\EventManager.h",
+              "RelativeToolTip": "shapesSFML\\EventManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:16:43.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Circle.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Circle.h",
+              "RelativeDocumentMoniker": "shapesSFML\\Circle.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Circle.h",
+              "RelativeToolTip": "shapesSFML\\Circle.h",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:16:43.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShapeCreator.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeCreator.h",
+              "RelativeDocumentMoniker": "shapesSFML\\ShapeCreator.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\ShapeCreator.h",
+              "RelativeToolTip": "shapesSFML\\ShapeCreator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:16:43.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventManger.cpp",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\EventManger.cpp",
+              "RelativeDocumentMoniker": "shapesSFML\\EventManger.cpp",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\EventManger.cpp",
+              "RelativeToolTip": "shapesSFML\\EventManger.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-06T16:16:43.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Shape.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Shape.h",
+              "RelativeDocumentMoniker": "shapesSFML\\Shape.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Shape.h",
+              "RelativeToolTip": "shapesSFML\\Shape.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:35:08.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Triangle.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Triangle.h",
+              "RelativeDocumentMoniker": "shapesSFML\\Triangle.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\Triangle.h",
+              "RelativeToolTip": "shapesSFML\\Triangle.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:16:43.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FileManager.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\FileManager.h",
+              "RelativeDocumentMoniker": "shapesSFML\\FileManager.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\labwork1\\shapesSFML\\FileManager.h",
+              "RelativeToolTip": "shapesSFML\\FileManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T16:16:43.1Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

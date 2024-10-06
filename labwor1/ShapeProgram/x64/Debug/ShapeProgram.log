@@ -1,3 +1,0 @@
-﻿  commands.cpp
-x64\Debug\shapeCreator.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
-  ShapeProgram.vcxproj -> D:\ood2024\labwork1\x64\Debug\ShapeProgram.exe
