@@ -20,6 +20,21 @@ public:
         window.draw(m_rectangle);
     }
 
+    bool Contains(const sf::Vector2f& point) const override
+    {
+        return m_rectangle.getGlobalBounds().contains(point);
+    }
+
+    void Move(const sf::Vector2f& delta) override
+    {
+        m_rectangle.move(delta);
+    }
+
+    sf::FloatRect GetBounds() const override
+    {
+        return m_rectangle.getGlobalBounds();
+    }
+
     float GetPerimeter() const override
     {
         return 2 * (m_rectangle.getSize().x + m_rectangle.getSize().y);

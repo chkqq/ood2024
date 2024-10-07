@@ -5,7 +5,7 @@
 #include <string>
 #include "ShapeDecorator.h"
 
-std::vector<ShapeDecorator*> LoadShapesFromFile(const std::string& filename);
-void SaveResultsToFile(const std::vector<ShapeDecorator*>& shapes, const std::string& filename);
+std::vector<std::shared_ptr<Shape>> LoadShapesFromFile(const std::string& filename);
+void SaveResultsToFile(const std::vector<std::shared_ptr<Shape>>& shapes, const std::string& filename);
 
 #endif

@@ -2,8 +2,9 @@
 #include "CircleDecorator.h"
 #include "RectangleDecorator.h"
 #include "TriangleDecorator.h"
+#include <memory>
 
-ShapeDecorator* CreateCircle(std::istringstream& iss)
+std::shared_ptr<ShapeDecorator> CreateCircle(std::istringstream& iss)
 {
     int cx, cy, r;
     int outlineThickness;
@@ -26,10 +27,11 @@ ShapeDecorator* CreateCircle(std::istringstream& iss)
 
     sf::Color color(colorR, colorG, colorB);
     sf::Color outlineColor(outColorR, outColorG, outColorB);
-    return new CircleDecorator(new Circle(r, sf::Vector2f(cx, cy)), color, outlineColor, outlineThickness);
+    return std::make_shared<CircleDecorator>(
+        std::make_shared<Circle>(r, sf::Vector2f(cx, cy)), color, outlineColor, outlineThickness);
 }
 
-ShapeDecorator* CreateRectangle(std::istringstream& iss)
+std::shared_ptr<ShapeDecorator> CreateRectangle(std::istringstream& iss)
 {
     int x1, y1, x2, y2;
     int outlineThickness;
@@ -53,10 +55,11 @@ ShapeDecorator* CreateRectangle(std::istringstream& iss)
 
     sf::Color color(colorR, colorG, colorB);
     sf::Color outlineColor(outColorR, outColorG, outColorB);
-    return new RectangleDecorator(new Rectangle(sf::Vector2f(x2 - x1, y2 - y1), sf::Vector2f(x1, y1)), color, outlineColor, outlineThickness);
+    return std::make_shared<RectangleDecorator>(
+        std::make_shared<Rectangle>(sf::Vector2f(x2 - x1, y2 - y1), sf::Vector2f(x1, y1)), color, outlineColor, outlineThickness);
 }
 
-ShapeDecorator* CreateTriangle(std::istringstream& iss)
+std::shared_ptr<ShapeDecorator> CreateTriangle(std::istringstream& iss)
 {
     int x1, y1, x2, y2, x3, y3;
     int outlineThickness;
@@ -81,7 +84,8 @@ ShapeDecorator* CreateTriangle(std::istringstream& iss)
 
     sf::Color color(colorR, colorG, colorB);
     sf::Color outlineColor(outColorR, outColorG, outColorB);
-    return new TriangleDecorator(new Triangle(sf::Vector2f(x1, y1), sf::Vector2f(x2, y2), sf::Vector2f(x3, y3)), color, outlineColor, outlineThickness);
+    return std::make_shared<TriangleDecorator>(
+        std::make_shared<Triangle>(sf::Vector2f(x1, y1), sf::Vector2f(x2, y2), sf::Vector2f(x3, y3)), color, outlineColor, outlineThickness);
 }
 
 std::map<std::string, ShapeCreator> GetShapeFactory()

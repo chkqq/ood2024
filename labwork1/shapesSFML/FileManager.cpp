@@ -9,12 +9,13 @@
 #include <fstream>
 #include <sstream>
 #include <map>
+#include <memory>
 
-std::vector<ShapeDecorator*> LoadShapesFromFile(const std::string& filename)
+std::vector<std::shared_ptr<Shape>> LoadShapesFromFile(const std::string& filename)
 {
     std::map<std::string, ShapeCreator> shapeFactory = GetShapeFactory();
     std::ifstream file(filename);
-    std::vector<ShapeDecorator*> shapes;
+    std::vector<std::shared_ptr<Shape>> shapes;
     std::string line;
 
     while (std::getline(file, line))
@@ -33,19 +34,19 @@ std::vector<ShapeDecorator*> LoadShapesFromFile(const std::string& filename)
     return shapes;
 }
 
-void SaveResultsToFile(const std::vector<ShapeDecorator*>& shapes, const std::string& filename)
+void SaveResultsToFile(const std::vector<std::shared_ptr<Shape>>& shapes, const std::string& filename)
 {
-    std::map<std::string, std::function<bool(const ShapeDecorator*)>> shapeMap = {
-        {"CIRCLE:", [](const ShapeDecorator* shape) { return dynamic_cast<const CircleDecorator*>(shape) != nullptr; }},
-        {"RECTANGLE:", [](const ShapeDecorator* shape) { return dynamic_cast<const RectangleDecorator*>(shape) != nullptr; }},
-        {"TRIANGLE:", [](const ShapeDecorator* shape) { return dynamic_cast<const TriangleDecorator*>(shape) != nullptr; }}
+    std::map<std::string, std::function<bool(const std::shared_ptr<Shape>&)>> shapeMap = {
+        {"CIRCLE:", [](const std::shared_ptr<Shape>& shape) { return dynamic_cast<const CircleDecorator*>(shape.get()) != nullptr; }},
+        {"RECTANGLE:", [](const std::shared_ptr<Shape>& shape) { return dynamic_cast<const RectangleDecorator*>(shape.get()) != nullptr; }},
+        {"TRIANGLE:", [](const std::shared_ptr<Shape>& shape) { return dynamic_cast<const TriangleDecorator*>(shape.get()) != nullptr; }}
     };
 
     std::ofstream file(filename);
 
     for (const auto& shape : shapes)
     {
-        for (const auto& pair : shapeMap)   
+        for (const auto& pair : shapeMap)
         {
             if (pair.second(shape))
             {

@@ -3,6 +3,7 @@
 
 #include "ShapeDecorator.h"
 #include "Circle.h"
+#include <memory>
 
 class CircleDecorator : public ShapeDecorator
 {
@@ -12,12 +13,12 @@ private:
     float m_outlineThickness;
 
 public:
-    CircleDecorator(Shape* shape, sf::Color color, sf::Color outlineColor, float outlineThickness)
+    CircleDecorator(std::shared_ptr<Shape> shape, sf::Color color, sf::Color outlineColor, float outlineThickness)
         : ShapeDecorator(shape), m_color(color), m_outlineColor(outlineColor), m_outlineThickness(outlineThickness) {}
 
     void Draw(sf::RenderWindow& window) override
     {
-        auto circle = dynamic_cast<Circle*>(m_shape);
+        auto circle = dynamic_cast<Circle*>(m_shape.get());
         if (circle)
         {
             circle->GetCircleShape().setFillColor(m_color);

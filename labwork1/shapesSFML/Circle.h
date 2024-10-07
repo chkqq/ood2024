@@ -1,8 +1,8 @@
 #ifndef CIRCLE_H
 #define CIRCLE_H
+
 #define _USE_MATH_DEFINES
 #include <math.h>
-
 #include "Shape.h"
 
 class Circle : public Shape
@@ -22,6 +22,12 @@ public:
         window.draw(m_circle);
     }
 
+    bool Contains(const sf::Vector2f& point) const override
+    {
+        return m_circle.getGlobalBounds().contains(point);
+    }
+
+
     float GetPerimeter() const override
     {
         return 2 * M_PI * m_circle.getRadius();
@@ -32,6 +38,15 @@ public:
         return M_PI * m_circle.getRadius() * m_circle.getRadius();
     }
 
+    void Move(const sf::Vector2f& delta) override
+    {
+        m_circle.move(delta);
+    }
+
+    sf::FloatRect GetBounds() const override
+    {
+        return m_circle.getGlobalBounds();
+    }
     sf::CircleShape& GetCircleShape() { return m_circle; }
 };
 

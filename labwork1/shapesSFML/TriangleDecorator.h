@@ -3,6 +3,7 @@
 
 #include "ShapeDecorator.h"
 #include "Triangle.h"
+#include <memory>
 
 class TriangleDecorator : public ShapeDecorator
 {
@@ -12,12 +13,12 @@ private:
     float m_outlineThickness;
 
 public:
-    TriangleDecorator(Shape* shape, sf::Color color, sf::Color outlineColor, float outlineThickness)
+    TriangleDecorator(std::shared_ptr<Shape> shape, sf::Color color, sf::Color outlineColor, float outlineThickness)
         : ShapeDecorator(shape), m_color(color), m_outlineColor(outlineColor), m_outlineThickness(outlineThickness) {}
 
     void Draw(sf::RenderWindow& window) override
     {
-        auto triangle = dynamic_cast<Triangle*>(m_shape);
+        auto triangle = dynamic_cast<Triangle*>(m_shape.get());
         if (triangle)
         {
             triangle->GetTriangleShape().setFillColor(m_color);
