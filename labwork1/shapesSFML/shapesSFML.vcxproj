@@ -147,7 +147,6 @@
     <ClCompile Include="EventManger.cpp" />
     <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SelectionDecorator.cpp" />
     <ClCompile Include="ShapeCreator.cpp" />
     <ClCompile Include="ShapeDecorator.cpp" />
     <ClCompile Include="ShapeGroup.cpp" />
@@ -159,7 +158,6 @@
     <ClInclude Include="FileManager.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="RectangleDecorator.h" />
-    <ClInclude Include="SelectionDecorator.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="ShapeCreator.h" />
     <ClInclude Include="ShapeDecorator.h" />

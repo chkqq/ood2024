@@ -47,6 +47,17 @@ public:
     {
         return m_circle.getGlobalBounds();
     }
+
+    sf::Vector2f GetPosition() const override
+    {
+        return m_circle.getPosition();
+    }
+
+    void SetPosition(const sf::Vector2f& position) override
+    {
+        m_circle.setPosition(position);
+    }
+
     sf::CircleShape& GetCircleShape() { return m_circle; }
 };
 

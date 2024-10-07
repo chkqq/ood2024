@@ -12,10 +12,15 @@ public:
     ShapeDecorator(std::shared_ptr<Shape> shape);
     void Draw(sf::RenderWindow& window) override;
     bool Contains(const sf::Vector2f& point) const override;
+
     void Move(const sf::Vector2f& delta) override;
     sf::FloatRect GetBounds() const override;
+
+    sf::Vector2f GetPosition() const  override;
+    void SetPosition(const sf::Vector2f& position)override;
+
     float GetPerimeter() const override;
     float GetArea() const override;
 };
 
-#endif // SHAPE_DECORATOR_H
+#endif

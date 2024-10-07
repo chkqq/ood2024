@@ -34,7 +34,11 @@ std::vector<std::shared_ptr<Shape>> LoadShapesFromFile(const std::string& filena
     return shapes;
 }
 
-void SaveResultsToFile(const std::vector<std::shared_ptr<Shape>>& shapes, const std::string& filename)
+void SaveResultsToFile
+(
+    const std::vector<std::shared_ptr<Shape>>& shapes, 
+    const std::string& filename
+)
 {
     std::map<std::string, std::function<bool(const std::shared_ptr<Shape>&)>> shapeMap = {
         {"CIRCLE:", [](const std::shared_ptr<Shape>& shape) { return dynamic_cast<const CircleDecorator*>(shape.get()) != nullptr; }},

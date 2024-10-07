@@ -4,6 +4,7 @@
 #include "FileManager.h"
 #include <iostream>
 #include <memory>
+#include <vector>
 
 int main()
 {
@@ -11,6 +12,7 @@ int main()
     SaveResultsToFile(shapes, "output.txt");
 
     std::vector<std::shared_ptr<Shape>> selectedShapes;
+    std::vector<std::shared_ptr<ShapeGroup>> groups;
 
     bool isDragging = false;
 
@@ -18,16 +20,22 @@ int main()
 
     while (window.isOpen())
     {
-        HandleEvents(window, shapes, selectedShapes, isDragging);
-        HandleMouseDrag(window, selectedShapes, isDragging);
+        HandleEvents(window, shapes, selectedShapes, isDragging, groups);
+        HandleMouseDrag(window, selectedShapes, isDragging, groups);
 
         window.clear(sf::Color::White);
-
         for (const auto& shape : shapes)
         {
             shape->Draw(window);
         }
-
+        for (const auto& selectedShape : selectedShapes)
+        {
+            selectedShape->Draw(window);
+        }
+        for (const auto& group : groups)
+        {
+            group->Draw(window);
+        }
         window.display();
     }
 

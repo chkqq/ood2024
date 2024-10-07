@@ -56,6 +56,15 @@ public:
         const sf::Vector2f& p3 = m_triangle.getPoint(2);
         return std::abs((p1.x * (p2.y - p3.y) + p2.x * (p3.y - p1.y) + p3.x * (p1.y - p2.y)) / 2.0f);
     }
+    sf::Vector2f GetPosition() const override
+    {
+        return m_triangle.getPosition();
+    }
+
+    void SetPosition(const sf::Vector2f& position) override
+    {
+        m_triangle.setPosition(position);
+    }
 
     sf::ConvexShape& GetTriangleShape() { return m_triangle; }
 };

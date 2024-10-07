@@ -44,6 +44,15 @@ public:
     {
         return m_rectangle.getSize().x * m_rectangle.getSize().y;
     }
+    sf::Vector2f GetPosition() const override
+    {
+        return m_rectangle.getPosition();
+    }
+
+    void SetPosition(const sf::Vector2f& position) override
+    {
+        m_rectangle.setPosition(position);
+    }
 
     sf::RectangleShape& GetRectangleShape() { return m_rectangle; }
 };

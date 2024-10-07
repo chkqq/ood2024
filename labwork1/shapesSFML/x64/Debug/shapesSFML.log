@@ -1,32 +1,12 @@
 ﻿  EventManger.cpp
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(18,92): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(18,92): warning C4244:         with
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(18,92): warning C4244:         [
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(18,92): warning C4244:             T=float
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(18,92): warning C4244:         ]
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(18,71): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(18,71): warning C4244:         with
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(18,71): warning C4244:         [
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(18,71): warning C4244:             T=float
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(18,71): warning C4244:         ]
-  FileManager.cpp
-E:\edu\ood\ood2024\labwork1\shapesSFML\Circle.h(33,25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
-  (компиляция исходного файла "FileManager.cpp")
-  
-E:\edu\ood\ood2024\labwork1\shapesSFML\Circle.h(38,44): warning C4244: return: преобразование "double" в "float", возможна потеря данных
-  (компиляция исходного файла "FileManager.cpp")
-  
-E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(43,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-  (компиляция исходного файла "FileManager.cpp")
-  
-E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(45,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-  (компиляция исходного файла "FileManager.cpp")
-  
-E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(47,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-  (компиляция исходного файла "FileManager.cpp")
-  
-  main.cpp
-  SelectionDecorator.cpp
-  ShapeManager.cpp
-  Создание кода...
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,92): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,92): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,92): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,92): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,92): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,71): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,71): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,71): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,71): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,71): warning C4244:         ]
   shapesSFML.vcxproj -> E:\edu\ood\ood2024\labwork1\x64\Debug\shapesSFML.exe

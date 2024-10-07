@@ -31,3 +31,12 @@ float ShapeDecorator::GetArea() const
 {
     return m_shape->GetArea();
 }
+sf::Vector2f ShapeDecorator::GetPosition() const
+{
+    return m_shape->GetPosition();
+}
+
+void ShapeDecorator::SetPosition(const sf::Vector2f& position)
+{
+    m_shape->SetPosition(position);
+}
