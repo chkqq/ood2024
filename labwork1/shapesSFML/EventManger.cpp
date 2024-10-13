@@ -52,11 +52,15 @@ void HandleEvents
         }
         if (event.type == sf::Event::KeyPressed && event.key.control && event.key.code == sf::Keyboard::U) {
             if (!groups.empty()) {
-                for (auto& group : groups) {
-                    auto shapesFromGroup = group->GetShapes();
-                    selectedShapes.insert(selectedShapes.end(), shapesFromGroup.begin(), shapesFromGroup.end());
+                auto& lastGroup = groups.back();
+                if (!lastGroup->GetShapes().empty()) {
+                    auto shapesFromGroup = lastGroup->GetShapes();
+                    lastGroup->RemoveShape(shapesFromGroup.back());
                 }
-                groups.clear();
+
+                if (lastGroup->GetShapes().empty()) {
+                    groups.pop_back();
+                }
             }
         }
     }

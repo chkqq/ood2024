@@ -58,6 +58,19 @@ public:
         m_circle.setPosition(position);
     }
 
+    void SetFillColor(const sf::Color& color) override {
+        m_circle.setFillColor(color);
+    }
+
+    void SetOutlineColor(const sf::Color& color) override {
+        m_circle.setOutlineColor(color);
+    }
+
+    void SetOutlineThickness(float thickness) override {
+        m_circle.setOutlineThickness(thickness);
+    }
+
+
     sf::CircleShape& GetCircleShape() { return m_circle; }
 };
 

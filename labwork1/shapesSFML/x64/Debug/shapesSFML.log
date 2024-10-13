@@ -1,12 +1,12 @@
 ﻿  EventManger.cpp
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,92): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,92): warning C4244:         with
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,92): warning C4244:         [
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,92): warning C4244:             T=float
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,92): warning C4244:         ]
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,71): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,71): warning C4244:         with
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,71): warning C4244:         [
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,71): warning C4244:             T=float
-E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(27,71): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,92): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,92): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,92): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,92): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,92): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,71): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,71): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,71): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,71): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,71): warning C4244:         ]
   shapesSFML.vcxproj -> E:\edu\ood\ood2024\labwork1\x64\Debug\shapesSFML.exe

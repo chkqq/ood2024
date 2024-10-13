@@ -15,6 +15,10 @@ public:
     virtual sf::Vector2f GetPosition() const = 0;
     virtual void SetPosition(const sf::Vector2f& position) = 0;
 
+    virtual void SetFillColor(const sf::Color& color) = 0;
+    virtual void SetOutlineColor(const sf::Color& color) = 0;
+    virtual void SetOutlineThickness(float thickness) = 0;
+
     virtual float GetPerimeter() const = 0;
     virtual float GetArea() const = 0;
 };

@@ -2,6 +2,7 @@
 #define SHAPE_DECORATOR_H
 
 #include "Shape.h"
+#include <SFML/Graphics.hpp>
 
 class ShapeDecorator : public Shape
 {
@@ -18,6 +19,10 @@ public:
 
     sf::Vector2f GetPosition() const  override;
     void SetPosition(const sf::Vector2f& position)override;
+
+    void SetFillColor(const sf::Color& color)override;
+    void SetOutlineColor(const sf::Color& color)override;
+    void SetOutlineThickness(float thickness)override;
 
     float GetPerimeter() const override;
     float GetArea() const override;

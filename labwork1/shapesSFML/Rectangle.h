@@ -54,6 +54,19 @@ public:
         m_rectangle.setPosition(position);
     }
 
+    void SetFillColor(const sf::Color& color) override {
+        m_rectangle.setFillColor(color);
+    }
+
+    void SetOutlineColor(const sf::Color& color) override {
+        m_rectangle.setOutlineColor(color);
+    }
+
+    void SetOutlineThickness(float thickness) override {
+        m_rectangle.setOutlineThickness(thickness);
+    }
+
+
     sf::RectangleShape& GetRectangleShape() { return m_rectangle; }
 };
 

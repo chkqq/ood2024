@@ -66,6 +66,18 @@ public:
         m_triangle.setPosition(position);
     }
 
+    void SetFillColor(const sf::Color& color) override {
+        m_triangle.setFillColor(color);
+    }
+
+    void SetOutlineColor(const sf::Color& color) override {
+        m_triangle.setOutlineColor(color);
+    }
+
+    void SetOutlineThickness(float thickness) override {
+        m_triangle.setOutlineThickness(thickness);
+    }
+
     sf::ConvexShape& GetTriangleShape() { return m_triangle; }
 };
 

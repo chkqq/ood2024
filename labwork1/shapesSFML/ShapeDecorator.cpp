@@ -40,3 +40,15 @@ void ShapeDecorator::SetPosition(const sf::Vector2f& position)
 {
     m_shape->SetPosition(position);
 }
+
+void ShapeDecorator::SetFillColor(const sf::Color& color)  {
+    m_shape->SetFillColor(color);
+}
+
+void ShapeDecorator::SetOutlineColor(const sf::Color& color)  {
+    m_shape->SetOutlineColor(color);
+}
+
+void ShapeDecorator::SetOutlineThickness(float thickness)  {
+    m_shape->SetOutlineThickness(thickness);
+}
