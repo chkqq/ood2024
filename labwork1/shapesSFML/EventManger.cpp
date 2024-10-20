@@ -53,9 +53,13 @@ void HandleEvents
         if (event.type == sf::Event::KeyPressed && event.key.control && event.key.code == sf::Keyboard::U) {
             if (!groups.empty()) {
                 auto& lastGroup = groups.back();
+
                 if (!lastGroup->GetShapes().empty()) {
                     auto shapesFromGroup = lastGroup->GetShapes();
-                    lastGroup->RemoveShape(shapesFromGroup.back());
+                    auto lastShape = shapesFromGroup.back(); 
+
+                    lastGroup->RemoveShape(lastShape);
+                    selectedShapes.push_back(lastShape);
                 }
 
                 if (lastGroup->GetShapes().empty()) {
@@ -65,6 +69,7 @@ void HandleEvents
         }
     }
 }
+
 
 void HandleMouseDrag
 (
@@ -94,9 +99,20 @@ void HandleMouseDrag
 
         for (auto& group : groups)
         {
-            for (auto& shapeInGroup : group->GetShapes())
+            if (!group->GetShapes().empty())
             {
-                shapeInGroup->Move(delta);
+                bool groupSelected = false;
+
+                for (const auto& shapeInGroup : group->GetShapes()) {
+                    if (std::find(selectedShapes.begin(), selectedShapes.end(), shapeInGroup) != selectedShapes.end()) {
+                        groupSelected = true;
+                        break;
+                    }
+                }
+
+                if (groupSelected) {
+                    group->Move(delta);
+                }
             }
         }
 
