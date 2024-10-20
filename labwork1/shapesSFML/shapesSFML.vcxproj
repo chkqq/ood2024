@@ -148,8 +148,6 @@
     <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ShapeCreator.cpp" />
-    <ClCompile Include="ShapeDecorator.cpp" />
-    <ClCompile Include="ShapeGroup.cpp" />
     <ClCompile Include="ShapeGroupDecorator.h" />
     <ClCompile Include="ShapeManager.cpp" />
   </ItemGroup>

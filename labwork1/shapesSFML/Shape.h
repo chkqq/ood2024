@@ -10,7 +10,6 @@ public:
     virtual void Draw(sf::RenderWindow& window) = 0;
     virtual bool Contains(const sf::Vector2f& point) const = 0;
     virtual void Move(const sf::Vector2f& delta) = 0;
-    virtual sf::FloatRect GetBounds() const = 0;
 
     virtual sf::Vector2f GetPosition() const = 0;
     virtual void SetPosition(const sf::Vector2f& position) = 0;

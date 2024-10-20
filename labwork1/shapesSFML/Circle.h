@@ -43,11 +43,6 @@ public:
         m_circle.move(delta);
     }
 
-    sf::FloatRect GetBounds() const override
-    {
-        return m_circle.getGlobalBounds();
-    }
-
     sf::Vector2f GetPosition() const override
     {
         return m_circle.getPosition();

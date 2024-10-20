@@ -14,13 +14,13 @@ public:
         : ShapeDecorator(group), fillColor(fillColor), outlineColor(outlineColor), outlineThickness(outlineThickness) {}
 
     void Draw(sf::RenderWindow& window) {
-        // Применяем изменения цвета, окантовки ко всей группе
+
         auto shapeGroup = dynamic_cast<ShapeGroup*>(m_shape.get());
         if (shapeGroup) {
             for (auto& shape : shapeGroup->GetShapes()) {
-                shape->SetFillColor(fillColor);            // Меняем цвет заливки
-                shape->SetOutlineColor(outlineColor);      // Меняем цвет окантовки
-                shape->SetOutlineThickness(outlineThickness); // Меняем толщину окантовки
+                shape->SetFillColor(fillColor);
+                shape->SetOutlineColor(outlineColor); 
+                shape->SetOutlineThickness(outlineThickness); 
             }
         }
         ShapeDecorator::Draw(window);

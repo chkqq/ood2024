@@ -33,11 +33,6 @@ public:
         m_triangle.move(delta);
     }
 
-    sf::FloatRect GetBounds() const override
-    {
-        return m_triangle.getGlobalBounds();
-    }
-
     float GetPerimeter() const override
     {
         float side1 = std::sqrt(std::pow(m_triangle.getPoint(1).x - m_triangle.getPoint(0).x, 2) +

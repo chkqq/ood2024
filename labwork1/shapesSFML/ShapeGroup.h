@@ -3,40 +3,98 @@
 
 #include <vector>
 #include <memory>
+#include <algorithm>
 #include "Shape.h"
 
-class ShapeGroup : public Shape {  // Наследуем от Shape
+class ShapeGroup : public Shape {
 private:
-    std::vector<std::shared_ptr<Shape>> m_shapes;  // Вектор для хранения фигур в группе
+    std::vector<std::shared_ptr<Shape>> m_shapes;
+
 public:
-    // Добавление и удаление фигур
-    void AddShape(std::shared_ptr<Shape> shape);
-    void RemoveShape(std::shared_ptr<Shape> shape);  // Удаление фигуры из группы
+    void AddShape(std::shared_ptr<Shape> shape) {
+        m_shapes.push_back(shape);
+    }
 
-    // Групповая отрисовка
-    void Draw(sf::RenderWindow& window) override;
+    void RemoveShape(std::shared_ptr<Shape> shape) {
+        m_shapes.erase(std::remove(m_shapes.begin(), m_shapes.end(), shape), m_shapes.end());
+    }
 
-    // Получение всех фигур
-    std::vector<std::shared_ptr<Shape>> GetShapes();
+    void Draw(sf::RenderWindow& window) override {
+        for (auto& shape : m_shapes) {
+            shape->Draw(window);
+        }
+    }
 
-    // Очистка всех фигур
-    void ClearShapes();
+    std::vector<std::shared_ptr<Shape>> GetShapes() {
+        return m_shapes;
+    }
 
-    // Переопределяем методы из Shape
-    float GetArea() const override;       // Возвращает суммарную площадь всех фигур
-    float GetPerimeter() const override;  // Возвращает суммарный периметр всех фигур
-    bool Contains(const sf::Vector2f& point) const override;  // Проверяет, содержится ли точка в любой фигуре
-    sf::FloatRect GetBounds() const override;  // Возвращает объединенные границы всех фигур
-    void Move(const sf::Vector2f& delta) override;  // Перемещает все фигуры в группе
+    void ClearShapes() {
+        m_shapes.clear();
+    }
 
-    // Позиция первой фигуры (или группы как целого)
-    sf::Vector2f GetPosition() const override;
-    void SetPosition(const sf::Vector2f& position) override;
+    float GetArea() const override {
+        float totalArea = 0.0f;
+        for (const auto& shape : m_shapes) {
+            totalArea += shape->GetArea();
+        }
+        return totalArea;
+    }
 
-    // Установка цвета и окантовки для всех фигур в группе
-    void SetFillColor(const sf::Color& color) override;
-    void SetOutlineColor(const sf::Color& color) override;
-    void SetOutlineThickness(float thickness) override;
+    float GetPerimeter() const override {
+        float totalPerimeter = 0.0f;
+        for (const auto& shape : m_shapes) {
+            totalPerimeter += shape->GetPerimeter();
+        }
+        return totalPerimeter;
+    }
+
+    bool Contains(const sf::Vector2f& point) const override {
+        for (const auto& shape : m_shapes) {
+            if (shape->Contains(point)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    void Move(const sf::Vector2f& delta) override {
+        for (auto& shape : m_shapes) {
+            shape->Move(delta);
+        }
+    }
+
+    sf::Vector2f GetPosition() const override {
+        if (!m_shapes.empty()) {
+            return m_shapes[0]->GetPosition();
+        }
+        return sf::Vector2f(0.0f, 0.0f);
+    }
+
+    void SetPosition(const sf::Vector2f& position) override {
+        if (!m_shapes.empty()) {
+            sf::Vector2f offset = position - m_shapes[0]->GetPosition();
+            Move(offset);
+        }
+    }
+
+    void SetFillColor(const sf::Color& color) override {
+        for (auto& shape : m_shapes) {
+            shape->SetFillColor(color);
+        }
+    }
+
+    void SetOutlineColor(const sf::Color& color) override {
+        for (auto& shape : m_shapes) {
+            shape->SetOutlineColor(color);
+        }
+    }
+
+    void SetOutlineThickness(float thickness) override {
+        for (auto& shape : m_shapes) {
+            shape->SetOutlineThickness(thickness);
+        }
+    }
 };
 
-#endif  // SHAPEGROUP_H
+#endif

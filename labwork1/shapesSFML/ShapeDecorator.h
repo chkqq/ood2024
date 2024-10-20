@@ -10,22 +10,47 @@ protected:
     std::shared_ptr<Shape> m_shape;
 
 public:
-    ShapeDecorator(std::shared_ptr<Shape> shape);
-    void Draw(sf::RenderWindow& window) override;
-    bool Contains(const sf::Vector2f& point) const override;
+    ShapeDecorator(std::shared_ptr<Shape> shape) : m_shape(shape) {}
 
-    void Move(const sf::Vector2f& delta) override;
-    sf::FloatRect GetBounds() const override;
+    void Draw(sf::RenderWindow& window) override {
+        m_shape->Draw(window);
+    }
 
-    sf::Vector2f GetPosition() const  override;
-    void SetPosition(const sf::Vector2f& position)override;
+    bool Contains(const sf::Vector2f& point) const override {
+        return m_shape->Contains(point);
+    }
 
-    void SetFillColor(const sf::Color& color)override;
-    void SetOutlineColor(const sf::Color& color)override;
-    void SetOutlineThickness(float thickness)override;
+    void Move(const sf::Vector2f& delta) override {
+        m_shape->Move(delta);
+    }
 
-    float GetPerimeter() const override;
-    float GetArea() const override;
+    float GetPerimeter() const override {
+        return m_shape->GetPerimeter();
+    }
+
+    float GetArea() const override {
+        return m_shape->GetArea();
+    }
+
+    sf::Vector2f GetPosition() const override {
+        return m_shape->GetPosition();
+    }
+
+    void SetPosition(const sf::Vector2f& position) override {
+        m_shape->SetPosition(position);
+    }
+
+    void SetFillColor(const sf::Color& color) override {
+        m_shape->SetFillColor(color);
+    }
+
+    void SetOutlineColor(const sf::Color& color) override {
+        m_shape->SetOutlineColor(color);
+    }
+
+    void SetOutlineThickness(float thickness) override {
+        m_shape->SetOutlineThickness(thickness);
+    }
 };
 
 #endif

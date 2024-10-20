@@ -30,11 +30,6 @@ public:
         m_rectangle.move(delta);
     }
 
-    sf::FloatRect GetBounds() const override
-    {
-        return m_rectangle.getGlobalBounds();
-    }
-
     float GetPerimeter() const override
     {
         return 2 * (m_rectangle.getSize().x + m_rectangle.getSize().y);
