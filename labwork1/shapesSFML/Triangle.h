@@ -73,6 +73,11 @@ public:
         m_triangle.setOutlineThickness(thickness);
     }
 
+    sf::Vector2f GetRightDownCorner() const override
+    {
+        return sf::Vector2f(m_triangle.getGlobalBounds().getPosition().x + m_triangle.getGlobalBounds().width - m_triangle.getOutlineThickness(), m_triangle.getGlobalBounds().getPosition().y + m_triangle.getGlobalBounds().height - m_triangle.getOutlineThickness());
+    };
+
     sf::ConvexShape& GetTriangleShape() { return m_triangle; }
 };
 

@@ -20,6 +20,8 @@ public:
 
     virtual float GetPerimeter() const = 0;
     virtual float GetArea() const = 0;
+
+    virtual sf::Vector2f GetRightDownCorner() const = 0;
 };
 
 #endif

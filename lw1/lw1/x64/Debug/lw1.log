@@ -1,0 +1,27 @@
+﻿  handlers.cpp
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\Circle.h(35,25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "handlers.cpp")
+  
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\Circle.h(39,44): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "handlers.cpp")
+  
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\handlers.cpp(36,88): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\handlers.cpp(36,88): warning C4244:         with
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\handlers.cpp(36,88): warning C4244:         [
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\handlers.cpp(36,88): warning C4244:             T=float
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\handlers.cpp(36,88): warning C4244:         ]
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\handlers.cpp(36,67): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\handlers.cpp(36,67): warning C4244:         with
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\handlers.cpp(36,67): warning C4244:         [
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\handlers.cpp(36,67): warning C4244:             T=float
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\handlers.cpp(36,67): warning C4244:         ]
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\handlers.cpp(55,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  main.cpp
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\Circle.h(35,25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+E:\edu\OOD-lw2new\OOD-lw2new\lw1\lw1\Circle.h(39,44): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+  Создание кода...
+  lw1.vcxproj -> E:\edu\OOD-lw2new\OOD-lw2new\lw1\x64\Debug\lw1.exe

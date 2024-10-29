@@ -65,6 +65,10 @@ public:
         m_circle.setOutlineThickness(thickness);
     }
 
+    sf::Vector2f GetRightDownCorner() const override
+    {
+        return sf::Vector2f(m_circle.getGlobalBounds().getPosition().x + m_circle.getGlobalBounds().width, m_circle.getGlobalBounds().getPosition().y + m_circle.getGlobalBounds().height);
+    };
 
     sf::CircleShape& GetCircleShape() { return m_circle; }
 };

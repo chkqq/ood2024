@@ -70,7 +70,6 @@ void HandleEvents
     }
 }
 
-
 void HandleMouseDrag
 (
     sf::RenderWindow& window,
@@ -92,27 +91,43 @@ void HandleMouseDrag
         sf::Vector2f currentPosition = static_cast<sf::Vector2f>(sf::Mouse::getPosition(window));
         sf::Vector2f delta = currentPosition - lastMousePosition;
 
+        // Move all selected shapes that are not in a group
         for (auto& shape : selectedShapes)
         {
-            shape->Move(delta);
+            bool isInGroup = false;
+
+            for (const auto& group : groups)
+            {
+                if (group->ContainsShape(shape)) // Assuming ShapeGroup has a ContainsShape method
+                {
+                    isInGroup = true;
+                    break;
+                }
+            }
+
+            if (!isInGroup) 
+            {
+                shape->Move(delta);
+            }
         }
 
+        // Move each group only once if any of its shapes is selected
         for (auto& group : groups)
         {
-            if (!group->GetShapes().empty())
+            bool groupSelected = false;
+
+            for (const auto& shapeInGroup : group->GetShapes())
             {
-                bool groupSelected = false;
-
-                for (const auto& shapeInGroup : group->GetShapes()) {
-                    if (std::find(selectedShapes.begin(), selectedShapes.end(), shapeInGroup) != selectedShapes.end()) {
-                        groupSelected = true;
-                        break;
-                    }
+                if (std::find(selectedShapes.begin(), selectedShapes.end(), shapeInGroup) != selectedShapes.end())
+                {
+                    groupSelected = true;
+                    break;
                 }
+            }
 
-                if (groupSelected) {
-                    group->Move(delta);
-                }
+            if (groupSelected)
+            {
+                group->Move(delta); // Move the group as a whole
             }
         }
 

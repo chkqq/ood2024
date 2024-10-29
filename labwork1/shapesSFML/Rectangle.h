@@ -61,6 +61,11 @@ public:
         m_rectangle.setOutlineThickness(thickness);
     }
 
+    sf::Vector2f GetRightDownCorner() const override
+    {
+        return sf::Vector2f(m_rectangle.getGlobalBounds().getPosition().x + m_rectangle.getGlobalBounds().width, m_rectangle.getGlobalBounds().getPosition().y + m_rectangle.getGlobalBounds().height);
+    };
+
 
     sf::RectangleShape& GetRectangleShape() { return m_rectangle; }
 };

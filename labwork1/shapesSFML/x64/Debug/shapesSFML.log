@@ -1,4 +1,44 @@
-﻿  EventManger.cpp
+﻿  CircleDecorator.h
+E:\edu\ood\ood2024\labwork1\shapesSFML\Circle.h(33,25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CircleDecorator.h")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Circle.h(38,44): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CircleDecorator.h")
+  
+  EventManger.cpp
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(13,48): error C2065: ShapeGroup: необъявленный идентификатор
+  (компиляция исходного файла "EventManger.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(13,37): error C2923: std::shared_ptr: "ShapeGroup" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "EventManger.cpp")
+      E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(13,48):
+       см. объявление "ShapeGroup"
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(13,37): error C3203: "shared_ptr": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+  (компиляция исходного файла "EventManger.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(19,48): error C2065: ShapeGroup: необъявленный идентификатор
+  (компиляция исходного файла "EventManger.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(19,37): error C2923: std::shared_ptr: "ShapeGroup" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "EventManger.cpp")
+      E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(19,48):
+       см. объявление "ShapeGroup"
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(19,37): error C3203: "shared_ptr": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+  (компиляция исходного файла "EventManger.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroup.h(7,7): error C2011: Group: переопределение типа "class"
+  (компиляция исходного файла "EventManger.cpp")
+      E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroup.h(7,7):
+       см. объявление "Group"
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(9,33): error C2065: ShapeGroup: необъявленный идентификатор
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(9,22): error C2923: std::shared_ptr: "ShapeGroup" не является допустимым аргументом типа шаблон для параметра "_Ty"
+      E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(9,33):
+       см. объявление "ShapeGroup"
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(9,22): error C3203: "shared_ptr": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
 E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,92): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
 E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,92): warning C4244:         with
 E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,92): warning C4244:         [
@@ -9,4 +49,341 @@ E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,71): warning C4244:   
 E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,71): warning C4244:         [
 E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,71): warning C4244:             T=float
 E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(26,71): warning C4244:         ]
-  shapesSFML.vcxproj -> E:\edu\ood\ood2024\labwork1\x64\Debug\shapesSFML.exe
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(45,47): error C2065: ShapeGroup: необъявленный идентификатор
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(45,35): error C2672: "std::make_shared": не найдена соответствующая перегруженная функция
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(2905,44):
+      может быть "std::shared_ptr<_Ty> std::make_shared(_Types ...)"
+          E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(45,47):
+          "std::make_shared": недопустимый аргумент шаблон для "_Ty", ожидается тип
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(47,21): error C3536: group: не может использоваться до инициализации
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(59,38): error C3536: shapesFromGroup: не может использоваться до инициализации
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(61,44): error C3536: lastShape: не может использоваться до инициализации
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,36): error C2665: "std::vector<std::shared_ptr<Shape>,std::allocator<std::shared_ptr<Shape>>>::push_back": ни одна перегруженная функция не может преобразовать все типы аргументов
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(870,23):
+      может быть "void std::vector<std::shared_ptr<Shape>,std::allocator<std::shared_ptr<Shape>>>::push_back(_Ty &&)"
+          with
+          [
+              _Ty=std::shared_ptr<Shape>
+          ]
+          E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,36):
+          "void std::vector<std::shared_ptr<Shape>,std::allocator<std::shared_ptr<Shape>>>::push_back(_Ty &&)": невозможно преобразовать аргумент 1 из "int" в "_Ty &&"
+          with
+          [
+              _Ty=std::shared_ptr<Shape>
+          ]
+              E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,46):
+              Причина: невозможно преобразовать "int" в "_Ty"
+          with
+          [
+              _Ty=std::shared_ptr<Shape>
+          ]
+              E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,46):
+              "std::shared_ptr<Shape>::shared_ptr": ни одна перегруженная функция не может преобразовать все типы аргументов
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1573,5):
+                  может быть "std::shared_ptr<Shape>::shared_ptr(std::nullptr_t) noexcept"
+                      E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,46):
+                      "std::shared_ptr<Shape>::shared_ptr(std::nullptr_t) noexcept": невозможно преобразовать аргумент 1 из "int" в "std::nullptr_t"
+                          E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,46):
+                          только неопределенная константа указателя может быть преобразована в nullptr_t
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1668,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::unique_ptr<_Ux,_Dx> &&)"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1657,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::auto_ptr<_Other> &&)"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1644,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::shared_ptr<_Ty2> &&) noexcept"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1634,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(const std::shared_ptr<_Ty2> &) noexcept"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1624,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::shared_ptr<_Ty2> &&,Shape *) noexcept"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1618,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(const std::shared_ptr<_Ty2> &,Shape *) noexcept"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1613,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::nullptr_t,_Dx,_Alloc)"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1607,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::nullptr_t,_Dx)"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1601,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(_Ux *,_Dx,_Alloc)"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1593,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(_Ux *,_Dx)"
+                  E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,46):
+                  при попытке сопоставить список аргументов "(int)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(866,23):
+      или       "void std::vector<std::shared_ptr<Shape>,std::allocator<std::shared_ptr<Shape>>>::push_back(const _Ty &)"
+          with
+          [
+              _Ty=std::shared_ptr<Shape>
+          ]
+          E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,36):
+          "void std::vector<std::shared_ptr<Shape>,std::allocator<std::shared_ptr<Shape>>>::push_back(const _Ty &)": невозможно преобразовать аргумент 1 из "int" в "const _Ty &"
+          with
+          [
+              _Ty=std::shared_ptr<Shape>
+          ]
+              E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,46):
+              Причина: невозможно преобразовать "int" в "const _Ty"
+          with
+          [
+              _Ty=std::shared_ptr<Shape>
+          ]
+              E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,46):
+              "std::shared_ptr<Shape>::shared_ptr": ни одна перегруженная функция не может преобразовать все типы аргументов
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1573,5):
+                  может быть "std::shared_ptr<Shape>::shared_ptr(std::nullptr_t) noexcept"
+                      E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,46):
+                      "std::shared_ptr<Shape>::shared_ptr(std::nullptr_t) noexcept": невозможно преобразовать аргумент 1 из "int" в "std::nullptr_t"
+                          E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,46):
+                          только неопределенная константа указателя может быть преобразована в nullptr_t
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1668,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::unique_ptr<_Ux,_Dx> &&)"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1657,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::auto_ptr<_Other> &&)"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1644,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::shared_ptr<_Ty2> &&) noexcept"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1634,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(const std::shared_ptr<_Ty2> &) noexcept"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1624,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::shared_ptr<_Ty2> &&,Shape *) noexcept"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1618,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(const std::shared_ptr<_Ty2> &,Shape *) noexcept"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1613,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::nullptr_t,_Dx,_Alloc)"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1607,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(std::nullptr_t,_Dx)"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1601,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(_Ux *,_Dx,_Alloc)"
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1593,5):
+                  или       "std::shared_ptr<Shape>::shared_ptr(_Ux *,_Dx)"
+                  E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,46):
+                  при попытке сопоставить список аргументов "(int)"
+      E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(62,36):
+      при попытке сопоставить список аргументов "(int)"
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(78,33): error C2065: ShapeGroup: необъявленный идентификатор
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(78,22): error C2923: std::shared_ptr: "ShapeGroup" не является допустимым аргументом типа шаблон для параметра "_Ty"
+      E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(78,33):
+       см. объявление "ShapeGroup"
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(78,22): error C3203: "shared_ptr": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(119,30): error C2530: shapeInGroup: ссылки должны быть инициализированы
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(119,30): error C3531: shapeInGroup: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(119,43): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManger.cpp(119,63): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+  FileManager.cpp
+E:\edu\ood\ood2024\labwork1\shapesSFML\Circle.h(33,25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "FileManager.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Circle.h(38,44): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "FileManager.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(38,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "FileManager.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(40,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "FileManager.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(42,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "FileManager.cpp")
+  
+  ShapeCreator.cpp
+E:\edu\ood\ood2024\labwork1\shapesSFML\Circle.h(33,25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "ShapeCreator.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Circle.h(38,44): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "ShapeCreator.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(38,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "ShapeCreator.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(40,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "ShapeCreator.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\Triangle.h(42,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "ShapeCreator.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(31,54): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(31,54): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(31,54): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(31,54): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(31,54): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(31,50): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(31,50): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(31,50): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(31,50): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(31,50): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,62): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,62): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,62): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,62): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,62): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,53): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,53): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,53): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,53): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,53): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,86): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,86): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,86): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,86): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,86): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,82): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,82): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,82): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,82): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(59,82): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,53): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,53): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,53): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,53): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,53): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,49): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,49): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,49): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,49): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,49): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,75): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,75): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,75): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,75): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,75): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,71): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,71): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,71): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,71): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,71): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,97): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,97): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,97): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,97): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,97): warning C4244:         ]
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,93): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,93): warning C4244:         with
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,93): warning C4244:         [
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,93): warning C4244:             T=float
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(88,93): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9): error C2259: "CircleDecorator": невозможно создать экземпляр абстрактного класса
+  (компиляция исходного файла "ShapeCreator.cpp")
+      E:\edu\ood\ood2024\labwork1\shapesSFML\CircleDecorator.h(8,7):
+       см. объявление "CircleDecorator"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9):
+      из-за следующих членов:
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9):
+      sf::Vector2f Shape::GetRightDownCorner(void) const: абстрактный
+      E:\edu\ood\ood2024\labwork1\shapesSFML\Shape.h(24,26):
+       см. объявление "Shape::GetRightDownCorner"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(30,17):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::shared_ptr<CircleDecorator> std::make_shared<CircleDecorator,std::shared_ptr<Circle>,sf::Color&,sf::Color&,int&>(std::shared_ptr<Circle> &&,sf::Color &,sf::Color &,int &)"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(2906,26):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "std::_Ref_count_obj2<CircleDecorator>"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(2108,33):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "std::_Wrap<CircleDecorator>"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9): error C2259: "RectangleDecorator": невозможно создать экземпляр абстрактного класса
+  (компиляция исходного файла "ShapeCreator.cpp")
+      E:\edu\ood\ood2024\labwork1\shapesSFML\RectangleDecorator.h(8,7):
+       см. объявление "RectangleDecorator"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9):
+      из-за следующих членов:
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9):
+      sf::Vector2f Shape::GetRightDownCorner(void) const: абстрактный
+      E:\edu\ood\ood2024\labwork1\shapesSFML\Shape.h(24,26):
+       см. объявление "Shape::GetRightDownCorner"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(58,17):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::shared_ptr<RectangleDecorator> std::make_shared<RectangleDecorator,std::shared_ptr<Rectangle>,sf::Color&,sf::Color&,int&>(std::shared_ptr<Rectangle> &&,sf::Color &,sf::Color &,int &)"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(2906,26):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "std::_Ref_count_obj2<RectangleDecorator>"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(2108,33):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "std::_Wrap<RectangleDecorator>"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9): error C2259: "TriangleDecorator": невозможно создать экземпляр абстрактного класса
+  (компиляция исходного файла "ShapeCreator.cpp")
+      E:\edu\ood\ood2024\labwork1\shapesSFML\TriangleDecorator.h(8,7):
+       см. объявление "TriangleDecorator"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9):
+      из-за следующих членов:
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9):
+      sf::Vector2f Shape::GetRightDownCorner(void) const: абстрактный
+      E:\edu\ood\ood2024\labwork1\shapesSFML\Shape.h(24,26):
+       см. объявление "Shape::GetRightDownCorner"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(2097,9):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeCreator.cpp(87,17):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::shared_ptr<TriangleDecorator> std::make_shared<TriangleDecorator,std::shared_ptr<Triangle>,sf::Color&,sf::Color&,int&>(std::shared_ptr<Triangle> &&,sf::Color &,sf::Color &,int &)"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(2906,26):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "std::_Ref_count_obj2<TriangleDecorator>"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(2108,33):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "std::_Wrap<TriangleDecorator>"
+  
+  ShapeGroupDecorator.h
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(13,41): error C2065: ShapeGroup: необъявленный идентификатор
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(13,30): error C2923: std::shared_ptr: "ShapeGroup" не является допустимым аргументом типа шаблон для параметра "_Ty"
+      E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(13,41):
+       см. объявление "ShapeGroup"
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(14,25): error C2665: "ShapeDecorator::ShapeDecorator": ни одна перегруженная функция не может преобразовать все типы аргументов
+      E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeDecorator.h(54,1):
+      может быть "ShapeDecorator::ShapeDecorator(ShapeDecorator &&)"
+          E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(14,25):
+          "ShapeDecorator::ShapeDecorator(ShapeDecorator &&)": невозможно преобразовать аргумент 1 из "std::shared_ptr" в "ShapeDecorator &&"
+              E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(14,26):
+              Причина: невозможно преобразовать "std::shared_ptr" в "ShapeDecorator"
+              E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(14,26):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeDecorator.h(54,1):
+      или       "ShapeDecorator::ShapeDecorator(const ShapeDecorator &)"
+          E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(14,25):
+          "ShapeDecorator::ShapeDecorator(const ShapeDecorator &)": невозможно преобразовать аргумент 1 из "std::shared_ptr" в "const ShapeDecorator &"
+              E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(14,26):
+              Причина: невозможно преобразовать "std::shared_ptr" в "const ShapeDecorator"
+              E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(14,26):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeDecorator.h(13,5):
+      или       "ShapeDecorator::ShapeDecorator(std::shared_ptr<Shape>)"
+          E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(14,25):
+          "ShapeDecorator::ShapeDecorator(std::shared_ptr<Shape>)": невозможно преобразовать аргумент 1 из "std::shared_ptr" в "std::shared_ptr<Shape>"
+              E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(14,26):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(14,25):
+      при попытке сопоставить список аргументов "(std::shared_ptr)"
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(18,40): error C2061: синтаксическая ошибка: идентификатор "ShapeGroup"
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(19,13): error C3536: shapeGroup: не может использоваться до инициализации
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(20,24): error C2530: shape: ссылки должны быть инициализированы
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(20,24): error C3531: shape: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(20,30): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+E:\edu\ood\ood2024\labwork1\shapesSFML\ShapeGroupDecorator.h(20,55): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+  ShapeManager.cpp
+  main.cpp
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(13,48): error C2065: ShapeGroup: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(13,37): error C2923: std::shared_ptr: "ShapeGroup" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "main.cpp")
+      E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(13,48):
+       см. объявление "ShapeGroup"
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(13,37): error C3203: "shared_ptr": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+  (компиляция исходного файла "main.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(19,48): error C2065: ShapeGroup: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(19,37): error C2923: std::shared_ptr: "ShapeGroup" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "main.cpp")
+      E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(19,48):
+       см. объявление "ShapeGroup"
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\EventManager.h(19,37): error C3203: "shared_ptr": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+  (компиляция исходного файла "main.cpp")
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\main.cpp(15,33): error C2065: ShapeGroup: необъявленный идентификатор
+E:\edu\ood\ood2024\labwork1\shapesSFML\main.cpp(15,22): error C2923: std::shared_ptr: "ShapeGroup" не является допустимым аргументом типа шаблон для параметра "_Ty"
+      E:\edu\ood\ood2024\labwork1\shapesSFML\main.cpp(15,33):
+       см. объявление "ShapeGroup"
+  
+E:\edu\ood\ood2024\labwork1\shapesSFML\main.cpp(15,22): error C3203: "shared_ptr": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+  Создание кода...
