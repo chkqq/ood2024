@@ -69,6 +69,10 @@ public:
     {
         return false;
     };
+    void accept(Visitor& visitor) override
+    {
+        visitor.visit(*this);
+    }
     sf::RectangleShape& GetRectangleShape() { return m_rectangle; }
 
 };

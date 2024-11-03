@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <memory>
 #include <string>
-
+#include "Visitor.h"
 class Shape
 {
 public:
@@ -17,6 +17,6 @@ public:
     virtual void Select(bool select) = 0;
     virtual bool IsSelected() const = 0;
     virtual bool IsGroup() const { return false; } // По умолчанию фигура не является группой
-
+    virtual void accept(Visitor& visitor) = 0;
     virtual ~Shape() = default;
 };

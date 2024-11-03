@@ -71,6 +71,11 @@ public:
     {
         return false;
     };
+
+    void accept(Visitor& visitor) override
+    {
+        visitor.visit(*this);
+    }
     sf::CircleShape& GetCircleShape() { return m_circle; };
 
 };

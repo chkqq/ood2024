@@ -131,26 +131,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CircleDecorator.h" />
+    <ClInclude Include="AddCircleCommand.h" />
+    <ClInclude Include="AddRectangleCommand.h" />
+    <ClInclude Include="AddTriangleCommand.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="ChangeFillColorCommand.h" />
+    <ClInclude Include="ChangeFillColorVisitor.h" />
+    <ClInclude Include="ChangeOutlineColorCommand.h" />
+    <ClInclude Include="ChangeOutlineColorVisitor.h" />
+    <ClInclude Include="ChangeOutlineThicknessCommand.h" />
+    <ClInclude Include="ChangeOutlineThicknessVisitor.h" />
     <ClInclude Include="Circle.h" />
-    <ClInclude Include="FileManager.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Commands.h" />
+    <ClInclude Include="ToolBar.h" />
+    <ClInclude Include="ToolBarButton.h" />
     <ClInclude Include="Triangle.h" />
-    <ClInclude Include="TriangleDecorator.h" />
-    <ClInclude Include="ShapeDecorator.h" />
-    <ClInclude Include="decorators.h" />
     <ClInclude Include="group.h" />
     <ClInclude Include="handlers.h" />
-    <ClInclude Include="RectangleDecorator.h" />
     <ClInclude Include="shape.h" />
     <ClInclude Include="Rectangle.h" />
-    <ClInclude Include="ShapeCreator.h" />
     <ClInclude Include="shapes.h" />
+    <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="Application.cpp" />
     <ClCompile Include="handlers.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ShapeCreator.cpp" />
+    <ClCompile Include="ToolBar.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

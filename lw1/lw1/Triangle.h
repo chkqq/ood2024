@@ -110,6 +110,9 @@ public:
     {
         return false;
     }
-
+    void accept(Visitor& visitor) override
+    {
+        visitor.visit(*this);
+    }
     sf::ConvexShape& GetTriangleShape() { return m_triangle; }
 };

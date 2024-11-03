@@ -1,14 +1,13 @@
 #pragma once
 #include "shape.h"
-#include "ShapeDecorator.h"
 #include <vector>
 #include <memory>
 #include <algorithm>
-#include "decorators.h"
+
 class Group : public Shape
 {
 protected:
-    std::vector<std::shared_ptr<ShapeDecorator>> m_group;
+    std::vector<std::shared_ptr<Shape>> m_group;
     sf::RectangleShape m_frame;
     bool m_isSelected = true;
 
@@ -24,16 +23,15 @@ public:
 
     void AddShape(std::shared_ptr<Shape> shape)
     {
-        auto decoratedShape = std::make_shared<ShapeDecorator>(shape);
-        m_group.push_back(decoratedShape);
+        m_group.push_back(shape);
     }
 
-    void DeleteShape(std::shared_ptr<ShapeDecorator> shape)
+    void DeleteShape(std::shared_ptr<Shape> shape)
     {
         m_group.erase(std::remove(m_group.begin(), m_group.end(), shape), m_group.end());
     }
 
-    std::vector<std::shared_ptr<ShapeDecorator>> GetShapes() { return m_group; }
+    std::vector<std::shared_ptr<Shape>> GetShapes() { return m_group; }
 
     bool IsEmpty() const { return m_group.empty(); }
 
@@ -43,28 +41,6 @@ public:
             shape->Draw(window);
         if (m_isSelected)
             window.draw(m_frame);
-    }
-
-    void SetGroupColor(const sf::Color& color, const sf::Color& outlineColor, float outlineThickness)
-    {
-        for (auto& decoratedShape : m_group)
-        {
-            auto circle = std::dynamic_pointer_cast<CircleDecorator>(decoratedShape);
-            if (circle)
-            {
-                circle->SetColor(color, outlineColor, outlineThickness);
-            }
-            auto rectangle = std::dynamic_pointer_cast<RectangleDecorator>(decoratedShape);
-            if (rectangle)
-            {
-                rectangle->SetColor(color, outlineColor, outlineThickness);
-            }
-            auto triangle = std::dynamic_pointer_cast<TriangleDecorator>(decoratedShape);
-            if (triangle)
-            {
-                triangle->SetColor(color, outlineColor, outlineThickness);
-            }
-        }
     }
 
     float GetPerimeter() const override { return 0; }
@@ -117,9 +93,11 @@ public:
             shape->Move(offset);
         m_frame.move(offset);
     }
-
+    void accept(Visitor& visitor) override
+    {
+        visitor.visit(*this);
+    }
     void Select(bool select) override { m_isSelected = select; }
     bool IsSelected() const override { return m_isSelected; }
     bool IsGroup() const override { return true; }
 };
-
