@@ -43,10 +43,6 @@ public:
             window.draw(m_frame);
     }
 
-    float GetPerimeter() const override { return 0; }
-    float GetArea() const override { return 0; }
-    std::string GetParams() const override { return ""; }
-
     bool Contains(const sf::Vector2f& point) const override
     {
         for (const auto& shape : m_group)

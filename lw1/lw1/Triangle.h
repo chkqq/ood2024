@@ -41,38 +41,6 @@ public:
             window.draw(m_frame);
     }
 
-    float GetPerimeter() const override
-    {
-        const sf::Vector2f& p1 = m_triangle.getPoint(0);
-        const sf::Vector2f& p2 = m_triangle.getPoint(1);
-        const sf::Vector2f& p3 = m_triangle.getPoint(2);
-
-        float line1 = std::hypot(p2.x - p1.x, p2.y - p1.y);
-        float line2 = std::hypot(p3.x - p2.x, p3.y - p2.y);
-        float line3 = std::hypot(p1.x - p3.x, p1.y - p3.y);
-
-        return line1 + line2 + line3;
-    }
-
-    float GetArea() const override
-    {
-        const sf::Vector2f& p1 = m_triangle.getPoint(0);
-        const sf::Vector2f& p2 = m_triangle.getPoint(1);
-        const sf::Vector2f& p3 = m_triangle.getPoint(2);
-
-        float line1 = std::hypot(p2.x - p1.x, p2.y - p1.y);
-        float line2 = std::hypot(p3.x - p2.x, p3.y - p2.y);
-        float line3 = std::hypot(p1.x - p3.x, p1.y - p3.y);
-
-        float semiperimeter = (line1 + line2 + line3) / 2;
-        return std::sqrt(semiperimeter * (semiperimeter - line1) * (semiperimeter - line2) * (semiperimeter - line3));
-    }
-
-    std::string GetParams() const override
-    {
-        return "P = " + std::to_string(GetPerimeter()) + "; S = " + std::to_string(GetArea());
-    }
-
     bool Contains(const sf::Vector2f& point) const override
     {
         return m_triangle.getGlobalBounds().contains(point);

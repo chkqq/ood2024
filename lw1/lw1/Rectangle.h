@@ -28,18 +28,6 @@ public:
         if (m_isSelected)
             window.draw(m_frame);
     };
-    float GetPerimeter() const override // возможно убрать
-    {
-        return 2 * (m_rectangle.getSize().x + m_rectangle.getSize().y);
-    };
-    float GetArea() const override // возможно убрать
-    {
-        return m_rectangle.getSize().x * m_rectangle.getSize().y;
-    };
-    std::string GetParams() const override
-    {
-        return "P = " + std::to_string(GetPerimeter()) + "; S = " + std::to_string(GetArea());
-    };
     bool Contains(const sf::Vector2f& point) const override
     {
         return m_rectangle.getGlobalBounds().contains(point);

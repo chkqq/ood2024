@@ -144,6 +144,10 @@
     <ClInclude Include="Circle.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="Commands.h" />
+    <ClInclude Include="FileManager.h" />
+    <ClInclude Include="MathDecorator.h" />
+    <ClInclude Include="RectangleDecorator.h" />
+    <ClInclude Include="ShapeCreator.h" />
     <ClInclude Include="ToolBar.h" />
     <ClInclude Include="ToolBarButton.h" />
     <ClInclude Include="Triangle.h" />
@@ -152,12 +156,16 @@
     <ClInclude Include="shape.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="shapes.h" />
+    <ClInclude Include="TriangleDecorator.h" />
     <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="CircleDecorator.h" />
+    <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="handlers.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ShapeCreator.cpp" />
     <ClCompile Include="ToolBar.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
