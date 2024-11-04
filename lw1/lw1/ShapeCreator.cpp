@@ -1,7 +1,5 @@
 #include "ShapeCreator.h"
-#include "CircleDecorator.h"
-#include "RectangleDecorator.h"
-#include "TriangleDecorator.h"
+#include "decorators.h"
 #include <memory>
 
 std::shared_ptr<MathDecorator> CreateCircle(std::istringstream& iss)

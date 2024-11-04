@@ -22,6 +22,17 @@ public:
         m_frame.setOutlineThickness(2);
         m_frame.setOutlineColor(sf::Color::Magenta);
     };
+
+    std::string serialize() const override {
+        std::ostringstream oss;
+        oss << "Rectangle "
+            << m_rectangle.getSize().x << " " << m_rectangle.getSize().y << " "
+            << m_rectangle.getPosition().x << " " << m_rectangle.getPosition().y << " "
+            << m_rectangle.getFillColor().toInteger() << " "
+            << m_rectangle.getOutlineColor().toInteger() << " "
+            << m_rectangle.getOutlineThickness();
+        return oss.str();
+    }
     void Draw(sf::RenderWindow& window) override
     {
         window.draw(m_rectangle);

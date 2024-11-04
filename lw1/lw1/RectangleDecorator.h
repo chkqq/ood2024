@@ -36,7 +36,9 @@ public:
     {
         m_shape->Draw(window);
     }
-
+    std::string serialize() const override {
+        return "";
+    }
     bool Contains(const sf::Vector2f& point) const override
     {
         return m_shape->Contains(point);

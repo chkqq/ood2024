@@ -1,6 +1,7 @@
 #include "handlers.h"
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
+#include "CareTaker.h"
 
 void Handlers::ShapesMoving(sf::RenderWindow& window, std::vector<std::shared_ptr<Shape>>& shapes, bool& isMove)
 {
@@ -40,6 +41,7 @@ void Handlers::HandleMousePress(sf::RenderWindow& window, const sf::Event& event
         if (!IsToolbarButtonClicked(mousePosition, toolbar))
         {
             HandleShapeSelection(event, shapes);
+
         }
     }
 }

@@ -16,11 +16,17 @@ void Application::run()
 
     while (window.isOpen())
     {
+        caretaker.save(Memento(shapes));
         handlers.ListenEvents(window, shapes, isMove, toolbar);
         handlers.ShapesMoving(window, shapes, isMove);
         window.clear(sf::Color::White);
         toolbar.draw(window);
         handlers.DrawShapes(window, shapes);
         window.display();
+    }
+}
+void Application::undoLastAction() {
+    if (caretaker.hasUndo()) {
+        shapes = caretaker.undo().getState();
     }
 }

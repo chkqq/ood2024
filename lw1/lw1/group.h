@@ -42,7 +42,14 @@ public:
         if (m_isSelected)
             window.draw(m_frame);
     }
-
+    std::string serialize() const override {
+        std::ostringstream oss;
+        oss << "Group " << m_group.size() << " ";
+        for (const auto& shape : m_group) {
+            oss << shape->serialize() << " ";
+        }
+        return oss.str();
+    }
     bool Contains(const sf::Vector2f& point) const override
     {
         for (const auto& shape : m_group)

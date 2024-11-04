@@ -40,7 +40,17 @@ public:
         if (m_isSelected)
             window.draw(m_frame);
     }
-
+    std::string serialize() const override {
+        std::ostringstream oss;
+        oss << "Triangle ";
+        for (size_t i = 0; i < m_triangle.getPointCount(); ++i) {
+            oss << m_triangle.getPoint(i).x << " " << m_triangle.getPoint(i).y << " ";
+        }
+        oss << m_triangle.getFillColor().toInteger() << " "
+            << m_triangle.getOutlineColor().toInteger() << " "
+            << m_triangle.getOutlineThickness();
+        return oss.str();
+    }
     bool Contains(const sf::Vector2f& point) const override
     {
         return m_triangle.getGlobalBounds().contains(point);

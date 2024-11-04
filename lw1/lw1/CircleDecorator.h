@@ -6,7 +6,7 @@
 #include <cmath>
 #include <fstream>
 #include "MathDecorator.h"
-#include "Circle.h"
+#include "shapes.h"
 
 class CircleDecorator : public MathDecorator
 {
@@ -34,7 +34,9 @@ public:
     {
         m_shape->Draw(window);
     }
-
+    std::string serialize() const override {
+        return "";
+    }
     bool Contains(const sf::Vector2f& point) const override
     {
         return m_shape->Contains(point);

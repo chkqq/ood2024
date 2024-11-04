@@ -30,7 +30,17 @@ public:
         if (m_isSelected)
             window.draw(m_frame);
     };
-
+    std::string serialize() const override {
+        std::ostringstream oss;
+        oss << "Circle "
+            << m_circle.getRadius() << " "
+            << m_circle.getPosition().x << " "
+            << m_circle.getPosition().y << " "
+            << m_circle.getFillColor().toInteger() << " "
+            << m_circle.getOutlineColor().toInteger() << " "
+            << m_circle.getOutlineThickness();
+        return oss.str();
+    }
     bool Contains(const sf::Vector2f& point) const override
     {
         return m_circle.getGlobalBounds().contains(point);

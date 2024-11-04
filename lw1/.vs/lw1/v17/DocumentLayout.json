@@ -3,132 +3,156 @@
   "WorkspaceRootPath": "E:\\edu\\ood\\ood2024\\lw1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Visitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Visitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBarButton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ToolBarButton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ToolBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\shapes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\shapes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeCreator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ShapeCreator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\MathDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\MathDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\handlers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\handlers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\group.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\group.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Commands.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Commands.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\CircleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\CircleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\FileManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\FileManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeOutlineThicknessVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeOutlineThicknessCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineColorVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeOutlineColorVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineColorCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeOutlineColorCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeFillColorVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeFillColorVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeFillColorCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeFillColorCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddTriangleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\AddTriangleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddRectangleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\AddRectangleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddCircleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\AddCircleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ToolBar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ShapeBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\decorators.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\decorators.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\handlers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\handlers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\MathDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\MathDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ToolBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBarButton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ToolBarButton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\FileManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\FileManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\CareTaker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\CareTaker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ShapeLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeCreator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ShapeCreator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\SaveStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\SaveStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\TextSaveStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\TextSaveStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\UndoCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\UndoCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\GroupBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\GroupBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\handlers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\handlers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineColorVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeOutlineColorVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeOutlineThicknessVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Visitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Visitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeFillColorVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeFillColorVisitor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeOutlineThicknessCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddRectangleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\AddRectangleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeFillColorCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeFillColorCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Commands.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Commands.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\SaveCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\SaveCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\LoadCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\LoadCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineColorCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ChangeOutlineColorCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\RectangleBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\RectangleBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\TriangleBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\TriangleBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\CircleBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\CircleBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Builders.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Builders.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeCreator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ShapeCreator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\CircleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\CircleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\FileManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\FileManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeCreator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ShapeCreator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\RectangleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -137,6 +161,45 @@
     {
       "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\TriangleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\TriangleDecorator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\shapes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\shapes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\group.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\group.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\Memento.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\Memento.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\ToolBar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.41.34120\\INCLUDE\\MEMORY||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\handlers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\handlers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|E:\\edu\\ood\\ood2024\\lw1\\lw1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D91C8C7-1FA9-4AF1-A063-255A2829599B}|lw1\\lw1.vcxproj|solutionrelative:lw1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory||{3B902123-F8A7-4915-9F01-361F908088D0}"
@@ -152,115 +215,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Circle.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Circle.h",
-              "RelativeDocumentMoniker": "lw1\\Circle.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Circle.h",
-              "RelativeToolTip": "lw1\\Circle.h",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwEUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-29T12:31:12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Command.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Command.h",
-              "RelativeDocumentMoniker": "lw1\\Command.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Command.h",
-              "RelativeToolTip": "lw1\\Command.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T20:40:43.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Commands.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Commands.h",
-              "RelativeDocumentMoniker": "lw1\\Commands.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Commands.h",
-              "RelativeToolTip": "lw1\\Commands.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Title": "SaveStrategy.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\SaveStrategy.h",
+              "RelativeDocumentMoniker": "lw1\\SaveStrategy.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\SaveStrategy.h",
+              "RelativeToolTip": "lw1\\SaveStrategy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T22:42:52.342Z",
+              "WhenOpened": "2024-11-04T00:47:32.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "group.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\group.h",
-              "RelativeDocumentMoniker": "lw1\\group.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\group.h",
-              "RelativeToolTip": "lw1\\group.h",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-29T12:20:38.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "handlers.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\handlers.h",
-              "RelativeDocumentMoniker": "lw1\\handlers.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\handlers.h",
-              "RelativeToolTip": "lw1\\handlers.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-29T12:47:05.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MathDecorator.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\MathDecorator.h",
-              "RelativeDocumentMoniker": "lw1\\MathDecorator.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\MathDecorator.h",
-              "RelativeToolTip": "lw1\\MathDecorator.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T23:26:12.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Rectangle.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Rectangle.h",
-              "RelativeDocumentMoniker": "lw1\\Rectangle.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Rectangle.h",
-              "RelativeToolTip": "lw1\\Rectangle.h",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwEEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-29T12:30:32.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "shape.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\shape.h",
-              "RelativeDocumentMoniker": "lw1\\shape.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\shape.h",
-              "RelativeToolTip": "lw1\\shape.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-29T12:45:21.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ShapeCreator.h",
               "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeCreator.h",
               "RelativeDocumentMoniker": "lw1\\ShapeCreator.h",
@@ -273,33 +245,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShapeLoader.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeLoader.h",
+              "RelativeDocumentMoniker": "lw1\\ShapeLoader.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeLoader.h",
+              "RelativeToolTip": "lw1\\ShapeLoader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T00:50:27.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "shapes.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\shapes.h",
-              "RelativeDocumentMoniker": "lw1\\shapes.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\shapes.h",
-              "RelativeToolTip": "lw1\\shapes.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Title": "MathDecorator.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\MathDecorator.h",
+              "RelativeDocumentMoniker": "lw1\\MathDecorator.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\MathDecorator.h",
+              "RelativeToolTip": "lw1\\MathDecorator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-29T12:35:26.911Z",
+              "WhenOpened": "2024-11-03T23:26:12.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ToolBar.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBar.h",
-              "RelativeDocumentMoniker": "lw1\\ToolBar.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBar.h",
-              "RelativeToolTip": "lw1\\ToolBar.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "CareTaker.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\CareTaker.h",
+              "RelativeDocumentMoniker": "lw1\\CareTaker.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\CareTaker.h",
+              "RelativeToolTip": "lw1\\CareTaker.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T21:41:29.778Z",
+              "WhenOpened": "2024-11-04T00:13:29.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ToolBarButton.h",
               "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBarButton.h",
               "RelativeDocumentMoniker": "lw1\\ToolBarButton.h",
@@ -312,46 +297,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Triangle.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Triangle.h",
-              "RelativeDocumentMoniker": "lw1\\Triangle.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Triangle.h",
-              "RelativeToolTip": "lw1\\Triangle.h",
-              "ViewState": "AgIAACIAAAAAAAAAAAAIwFYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ToolBar.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBar.h",
+              "RelativeDocumentMoniker": "lw1\\ToolBar.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBar.h",
+              "RelativeToolTip": "lw1\\ToolBar.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-29T12:09:04.39Z",
+              "WhenOpened": "2024-11-03T21:41:29.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "decorators.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\decorators.h",
+              "RelativeDocumentMoniker": "lw1\\decorators.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\decorators.h",
+              "RelativeToolTip": "lw1\\decorators.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T01:42:09.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShapeBuilder.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeBuilder.h",
+              "RelativeDocumentMoniker": "lw1\\ShapeBuilder.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeBuilder.h",
+              "RelativeToolTip": "lw1\\ShapeBuilder.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T00:50:04.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddCircleCommand.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddCircleCommand.h",
+              "RelativeDocumentMoniker": "lw1\\AddCircleCommand.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddCircleCommand.h",
+              "RelativeToolTip": "lw1\\AddCircleCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T22:37:29.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Visitor.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Visitor.h",
-              "RelativeDocumentMoniker": "lw1\\Visitor.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Visitor.h",
-              "RelativeToolTip": "lw1\\Visitor.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Title": "AddTriangleCommand.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddTriangleCommand.h",
+              "RelativeDocumentMoniker": "lw1\\AddTriangleCommand.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddTriangleCommand.h",
+              "RelativeToolTip": "lw1\\AddTriangleCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T20:42:23.929Z",
+              "WhenOpened": "2024-11-03T22:38:29.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TextSaveStrategy.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\TextSaveStrategy.h",
+              "RelativeDocumentMoniker": "lw1\\TextSaveStrategy.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\TextSaveStrategy.h",
+              "RelativeToolTip": "lw1\\TextSaveStrategy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T00:49:39.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UndoCommand.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\UndoCommand.h",
+              "RelativeDocumentMoniker": "lw1\\UndoCommand.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\UndoCommand.h",
+              "RelativeToolTip": "lw1\\UndoCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T00:17:15.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "CircleDecorator.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\CircleDecorator.h",
-              "RelativeDocumentMoniker": "lw1\\CircleDecorator.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\CircleDecorator.h",
-              "RelativeToolTip": "lw1\\CircleDecorator.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "Title": "GroupBuilder.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\GroupBuilder.h",
+              "RelativeDocumentMoniker": "lw1\\GroupBuilder.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\GroupBuilder.h",
+              "RelativeToolTip": "lw1\\GroupBuilder.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T23:28:19.624Z",
+              "WhenOpened": "2024-11-04T01:07:18.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
               "Title": "FileManager.h",
               "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\FileManager.h",
               "RelativeDocumentMoniker": "lw1\\FileManager.h",
@@ -364,33 +414,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ChangeOutlineThicknessVisitor.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessVisitor.h",
-              "RelativeDocumentMoniker": "lw1\\ChangeOutlineThicknessVisitor.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessVisitor.h",
-              "RelativeToolTip": "lw1\\ChangeOutlineThicknessVisitor.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "handlers.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\handlers.h",
+              "RelativeDocumentMoniker": "lw1\\handlers.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\handlers.h",
+              "RelativeToolTip": "lw1\\handlers.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T20:39:26.611Z",
+              "WhenOpened": "2024-10-29T12:47:05.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Circle.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Circle.h",
+              "RelativeDocumentMoniker": "lw1\\Circle.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Circle.h",
+              "RelativeToolTip": "lw1\\Circle.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-29T12:31:12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "ChangeOutlineThicknessCommand.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessCommand.h",
-              "RelativeDocumentMoniker": "lw1\\ChangeOutlineThicknessCommand.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessCommand.h",
-              "RelativeToolTip": "lw1\\ChangeOutlineThicknessCommand.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T22:41:45.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "ChangeOutlineColorVisitor.h",
               "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineColorVisitor.h",
               "RelativeDocumentMoniker": "lw1\\ChangeOutlineColorVisitor.h",
@@ -403,15 +453,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ChangeOutlineColorCommand.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineColorCommand.h",
-              "RelativeDocumentMoniker": "lw1\\ChangeOutlineColorCommand.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineColorCommand.h",
-              "RelativeToolTip": "lw1\\ChangeOutlineColorCommand.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "ChangeOutlineThicknessVisitor.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessVisitor.h",
+              "RelativeDocumentMoniker": "lw1\\ChangeOutlineThicknessVisitor.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessVisitor.h",
+              "RelativeToolTip": "lw1\\ChangeOutlineThicknessVisitor.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T22:40:51.455Z",
+              "WhenOpened": "2024-11-03T20:39:26.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Visitor.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Visitor.h",
+              "RelativeDocumentMoniker": "lw1\\Visitor.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Visitor.h",
+              "RelativeToolTip": "lw1\\Visitor.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T20:42:23.929Z",
               "EditorCaption": ""
             },
             {
@@ -430,6 +493,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "Application.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.h",
+              "RelativeDocumentMoniker": "lw1\\Application.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.h",
+              "RelativeToolTip": "lw1\\Application.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T20:37:46.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChangeOutlineThicknessCommand.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessCommand.h",
+              "RelativeDocumentMoniker": "lw1\\ChangeOutlineThicknessCommand.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineThicknessCommand.h",
+              "RelativeToolTip": "lw1\\ChangeOutlineThicknessCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T22:41:45.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddRectangleCommand.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddRectangleCommand.h",
+              "RelativeDocumentMoniker": "lw1\\AddRectangleCommand.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddRectangleCommand.h",
+              "RelativeToolTip": "lw1\\AddRectangleCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T22:38:21.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "ChangeFillColorCommand.h",
               "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeFillColorCommand.h",
               "RelativeDocumentMoniker": "lw1\\ChangeFillColorCommand.h",
@@ -442,72 +544,304 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Application.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.h",
-              "RelativeDocumentMoniker": "lw1\\Application.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.h",
-              "RelativeToolTip": "lw1\\Application.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T20:37:46.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AddTriangleCommand.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddTriangleCommand.h",
-              "RelativeDocumentMoniker": "lw1\\AddTriangleCommand.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddTriangleCommand.h",
-              "RelativeToolTip": "lw1\\AddTriangleCommand.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T22:38:29.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AddRectangleCommand.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddRectangleCommand.h",
-              "RelativeDocumentMoniker": "lw1\\AddRectangleCommand.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddRectangleCommand.h",
-              "RelativeToolTip": "lw1\\AddRectangleCommand.h",
+              "DocumentIndex": 25,
+              "Title": "Command.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Command.h",
+              "RelativeDocumentMoniker": "lw1\\Command.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Command.h",
+              "RelativeToolTip": "lw1\\Command.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T22:38:21.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AddCircleCommand.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddCircleCommand.h",
-              "RelativeDocumentMoniker": "lw1\\AddCircleCommand.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\AddCircleCommand.h",
-              "RelativeToolTip": "lw1\\AddCircleCommand.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T22:37:29.657Z",
+              "WhenOpened": "2024-11-03T20:40:43.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "commands.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\commands.h",
+              "RelativeDocumentMoniker": "lw1\\commands.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\commands.h",
+              "RelativeToolTip": "lw1\\commands.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T22:42:52.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SaveCommand.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\SaveCommand.h",
+              "RelativeDocumentMoniker": "lw1\\SaveCommand.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\SaveCommand.h",
+              "RelativeToolTip": "lw1\\SaveCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T00:51:13.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoadCommand.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\LoadCommand.h",
+              "RelativeDocumentMoniker": "lw1\\LoadCommand.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\LoadCommand.h",
+              "RelativeToolTip": "lw1\\LoadCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T00:52:27.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ChangeOutlineColorCommand.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineColorCommand.h",
+              "RelativeDocumentMoniker": "lw1\\ChangeOutlineColorCommand.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ChangeOutlineColorCommand.h",
+              "RelativeToolTip": "lw1\\ChangeOutlineColorCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T22:40:51.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RectangleBuilder.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\RectangleBuilder.h",
+              "RelativeDocumentMoniker": "lw1\\RectangleBuilder.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\RectangleBuilder.h",
+              "RelativeToolTip": "lw1\\RectangleBuilder.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T01:01:55.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TriangleBuilder.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\TriangleBuilder.h",
+              "RelativeDocumentMoniker": "lw1\\TriangleBuilder.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\TriangleBuilder.h",
+              "RelativeToolTip": "lw1\\TriangleBuilder.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T01:02:07.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CircleBuilder.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\CircleBuilder.h",
+              "RelativeDocumentMoniker": "lw1\\CircleBuilder.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\CircleBuilder.h",
+              "RelativeToolTip": "lw1\\CircleBuilder.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T01:01:44.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "builders.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\builders.h",
+              "RelativeDocumentMoniker": "lw1\\builders.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\builders.h",
+              "RelativeToolTip": "lw1\\builders.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T01:22:05.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ShapeCreator.cpp",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeCreator.cpp",
+              "RelativeDocumentMoniker": "lw1\\ShapeCreator.cpp",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeCreator.cpp",
+              "RelativeToolTip": "lw1\\ShapeCreator.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-03T23:38:18.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CircleDecorator.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\CircleDecorator.h",
+              "RelativeDocumentMoniker": "lw1\\CircleDecorator.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\CircleDecorator.h",
+              "RelativeToolTip": "lw1\\CircleDecorator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T23:28:19.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FileManager.cpp",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\FileManager.cpp",
+              "RelativeDocumentMoniker": "lw1\\FileManager.cpp",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\FileManager.cpp",
+              "RelativeToolTip": "lw1\\FileManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-03T23:35:37.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Application.cpp",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.cpp",
+              "RelativeDocumentMoniker": "lw1\\Application.cpp",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.cpp",
+              "RelativeToolTip": "lw1\\Application.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-03T22:08:23.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RectangleDecorator.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\RectangleDecorator.h",
+              "RelativeDocumentMoniker": "lw1\\RectangleDecorator.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\RectangleDecorator.h",
+              "RelativeToolTip": "lw1\\RectangleDecorator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T23:34:36.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TriangleDecorator.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\TriangleDecorator.h",
+              "RelativeDocumentMoniker": "lw1\\TriangleDecorator.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\TriangleDecorator.h",
+              "RelativeToolTip": "lw1\\TriangleDecorator.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T23:34:59.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Triangle.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Triangle.h",
+              "RelativeDocumentMoniker": "lw1\\Triangle.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Triangle.h",
+              "RelativeToolTip": "lw1\\Triangle.h",
+              "ViewState": "AgIAABAAAAAAAAAAAAD4vzUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-29T12:09:04.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "shapes.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\shapes.h",
+              "RelativeDocumentMoniker": "lw1\\shapes.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\shapes.h",
+              "RelativeToolTip": "lw1\\shapes.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-29T12:35:26.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "shape.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\shape.h",
+              "RelativeDocumentMoniker": "lw1\\shape.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\shape.h",
+              "RelativeToolTip": "lw1\\shape.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-29T12:45:21.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "group.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\group.h",
+              "RelativeDocumentMoniker": "lw1\\group.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\group.h",
+              "RelativeToolTip": "lw1\\group.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-29T12:20:38.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Rectangle.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Rectangle.h",
+              "RelativeDocumentMoniker": "lw1\\Rectangle.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Rectangle.h",
+              "RelativeToolTip": "lw1\\Rectangle.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-29T12:30:32.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Memento.h",
+              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Memento.h",
+              "RelativeDocumentMoniker": "lw1\\Memento.h",
+              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Memento.h",
+              "RelativeToolTip": "lw1\\Memento.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T00:13:06.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "ToolBar.cpp",
               "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBar.cpp",
               "RelativeDocumentMoniker": "lw1\\ToolBar.cpp",
               "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ToolBar.cpp",
               "RelativeToolTip": "lw1\\ToolBar.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCEAAACpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-03T21:41:46.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 47,
+              "Title": "memory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
+              "ViewState": "AgIAAPENAAAAAAAAAAAkwAwOAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-04T01:05:36.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
               "Title": "main.cpp",
               "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\main.cpp",
               "RelativeDocumentMoniker": "lw1\\main.cpp",
@@ -520,96 +854,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 48,
               "Title": "handlers.cpp",
               "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\handlers.cpp",
               "RelativeDocumentMoniker": "lw1\\handlers.cpp",
               "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\handlers.cpp",
               "RelativeToolTip": "lw1\\handlers.cpp",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAIwJ8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAIwKEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-29T12:39:38.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Application.cpp",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.cpp",
-              "RelativeDocumentMoniker": "lw1\\Application.cpp",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\Application.cpp",
-              "RelativeToolTip": "lw1\\Application.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T22:08:23.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "FileManager.cpp",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\FileManager.cpp",
-              "RelativeDocumentMoniker": "lw1\\FileManager.cpp",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\FileManager.cpp",
-              "RelativeToolTip": "lw1\\FileManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T23:35:37.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ShapeCreator.cpp",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeCreator.cpp",
-              "RelativeDocumentMoniker": "lw1\\ShapeCreator.cpp",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\ShapeCreator.cpp",
-              "RelativeToolTip": "lw1\\ShapeCreator.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T23:38:18.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 50,
               "Title": "xmemory",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory",
               "ViewState": "AgIAABsIAAAAAAAAAAAqwDAIAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-03T20:42:51.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T20:42:51.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "RectangleDecorator.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\RectangleDecorator.h",
-              "RelativeDocumentMoniker": "lw1\\RectangleDecorator.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\RectangleDecorator.h",
-              "RelativeToolTip": "lw1\\RectangleDecorator.h",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T23:34:36.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "TriangleDecorator.h",
-              "DocumentMoniker": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\TriangleDecorator.h",
-              "RelativeDocumentMoniker": "lw1\\TriangleDecorator.h",
-              "ToolTip": "E:\\edu\\ood\\ood2024\\lw1\\lw1\\TriangleDecorator.h",
-              "RelativeToolTip": "lw1\\TriangleDecorator.h",
-              "ViewState": "AgIAACIAAAAAAAAAAAAIwFYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T23:34:59.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 51,
               "Title": "xutility",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xutility",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xutility",

@@ -135,6 +135,7 @@
     <ClInclude Include="AddRectangleCommand.h" />
     <ClInclude Include="AddTriangleCommand.h" />
     <ClInclude Include="Application.h" />
+    <ClInclude Include="CareTaker.h" />
     <ClInclude Include="ChangeFillColorCommand.h" />
     <ClInclude Include="ChangeFillColorVisitor.h" />
     <ClInclude Include="ChangeOutlineColorCommand.h" />
@@ -142,12 +143,21 @@
     <ClInclude Include="ChangeOutlineThicknessCommand.h" />
     <ClInclude Include="ChangeOutlineThicknessVisitor.h" />
     <ClInclude Include="Circle.h" />
+    <ClInclude Include="CircleBuilder.h" />
     <ClInclude Include="Command.h" />
-    <ClInclude Include="Commands.h" />
+    <ClInclude Include="commands.h" />
+    <ClInclude Include="decorators.h" />
     <ClInclude Include="FileManager.h" />
+    <ClInclude Include="GroupBuilder.h" />
     <ClInclude Include="MathDecorator.h" />
+    <ClInclude Include="Memento.h" />
+    <ClInclude Include="RectangleBuilder.h" />
     <ClInclude Include="RectangleDecorator.h" />
+    <ClInclude Include="SaveStrategy.h" />
+    <ClInclude Include="ShapeBuilder.h" />
     <ClInclude Include="ShapeCreator.h" />
+    <ClInclude Include="ShapeLoader.h" />
+    <ClInclude Include="TextSaveStrategy.h" />
     <ClInclude Include="ToolBar.h" />
     <ClInclude Include="ToolBarButton.h" />
     <ClInclude Include="Triangle.h" />
@@ -156,15 +166,20 @@
     <ClInclude Include="shape.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="shapes.h" />
+    <ClInclude Include="TriangleBuilder.h" />
     <ClInclude Include="TriangleDecorator.h" />
+    <ClInclude Include="UndoCommand.h" />
     <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="builders.h" />
     <ClCompile Include="CircleDecorator.h" />
     <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="handlers.cpp" />
+    <ClCompile Include="LoadCommand.h" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SaveCommand.h" />
     <ClCompile Include="ShapeCreator.cpp" />
     <ClCompile Include="ToolBar.cpp" />
   </ItemGroup>

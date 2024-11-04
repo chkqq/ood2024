@@ -5,7 +5,7 @@
 #include "Shape.h"
 #include "Command.h"
 #include "ToolBar.h"
-
+#include "CareTaker.h"
 class Application
 {
 private:
@@ -14,6 +14,7 @@ private:
     std::vector<std::shared_ptr<Shape>> shapes;
     bool isMove;
     ToolBar toolbar;
+    Caretaker caretaker;
     std::vector<std::unique_ptr<Command>> commands;
 
     Application()
@@ -30,4 +31,6 @@ public:
     }
 
     void run();
+
+    void undoLastAction();
 };
