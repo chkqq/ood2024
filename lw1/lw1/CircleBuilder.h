@@ -1,3 +1,4 @@
+#pragma once
 #include "ShapeBuilder.h"
 #include "Circle.h"
 #include <sstream>
@@ -14,7 +15,9 @@ public:
         uint32_t fillColor, outlineColor;
         float outlineThickness;
 
-        iss >> type >> radius >> posX >> posY >> fillColor >> outlineColor >> outlineThickness;
+        if(!(iss >> type >> radius >> posX >> posY >> fillColor >> outlineColor >> outlineThickness)) {
+            throw std::runtime_error("Invalid data format for Rectangle");
+        }
 
         if (type == "Circle") {
             circle = std::make_shared<Circle>(radius, sf::Vector2f(posX, posY));

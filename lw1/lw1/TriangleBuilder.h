@@ -1,3 +1,4 @@
+#pragma once
 #include "ShapeBuilder.h"
 #include "Triangle.h"
 #include <sstream>
@@ -14,7 +15,9 @@ public:
         uint32_t fillColor, outlineColor;
         float outlineThickness;
 
-        iss >> type >> x1 >> y1 >> x2 >> y2 >> x3 >> y3 >> fillColor >> outlineColor >> outlineThickness;
+        if(!(iss >> type >> x1 >> y1 >> x2 >> y2 >> x3 >> y3 >> fillColor >> outlineColor >> outlineThickness)) {
+            throw std::runtime_error("Invalid data format for Rectangle");
+        }
 
         if (type == "Triangle") {
             triangle = std::make_shared<Triangle>(sf::Vector2f(x1, y1), sf::Vector2f(x2, y2), sf::Vector2f(x3, y3));

@@ -44,9 +44,9 @@ public:
     }
     std::string serialize() const override {
         std::ostringstream oss;
-        oss << "Group " << m_group.size() << " ";
+        oss << "Group " << m_group.size() << "\n";
         for (const auto& shape : m_group) {
-            oss << shape->serialize() << " ";
+            oss << shape->serialize() << "\n";
         }
         return oss.str();
     }
