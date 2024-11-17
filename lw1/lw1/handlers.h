@@ -11,11 +11,11 @@ class Handlers {
 public:
     Handlers() = default;
 
-    void ShapesMoving(sf::RenderWindow& window, std::vector<std::shared_ptr<Shape>>& shapes, bool& isMove, Caretaker& caretaker, ToolBar& toolbar);
     void ListenEvents(sf::RenderWindow& window, std::vector<std::shared_ptr<Shape>>& shapes, bool& isMove, ToolBar& toolbar, Caretaker& caretaker);
     void DrawShapes(sf::RenderWindow& window, const std::vector<std::shared_ptr<Shape>>& shapes);
 
 private:
+    void ShapesMoving(sf::RenderWindow& window, std::vector<std::shared_ptr<Shape>>& shapes, bool& isMove, Caretaker& caretaker, ToolBar& toolbar);
     void HandleWindowClose(sf::RenderWindow& window, const sf::Event& event);
     bool HandleMousePress(sf::RenderWindow& window, const sf::Event& event, std::vector<std::shared_ptr<Shape>>& shapes, ToolBar& toolbar, Caretaker& caretaker);
     bool IsToolbarButtonClicked(const sf::Vector2i& mousePosition, ToolBar& toolbar);

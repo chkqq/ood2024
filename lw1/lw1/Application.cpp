@@ -17,7 +17,6 @@ void Application::run()
     while (window.isOpen())
     {
         handlers.ListenEvents(window, shapes, isMove, toolbar, caretaker);
-        handlers.ShapesMoving(window, shapes, isMove, caretaker, toolbar);
         window.clear(sf::Color::White);
         toolbar.draw(window);
         handlers.DrawShapes(window, shapes);

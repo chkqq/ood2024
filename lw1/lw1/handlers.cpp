@@ -188,6 +188,7 @@ void Handlers::ListenEvents(sf::RenderWindow& window, std::vector<std::shared_pt
         HandleMousePress(window, event, shapes, toolbar, caretaker);
         HandleKeyPress(event, shapes, caretaker);
     }
+    ShapesMoving(window, shapes, isMove, caretaker, toolbar);
 }
 
 void Handlers::DrawShapes(sf::RenderWindow& window, const std::vector<std::shared_ptr<Shape>>& shapes)

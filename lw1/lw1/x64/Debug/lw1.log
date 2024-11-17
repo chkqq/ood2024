@@ -1,8 +1,15 @@
-﻿  LoadCommand.cpp
-  LoadCommand.h
-  ToolBar.cpp
+﻿  Application.cpp
+  Handlers.cpp
+E:\edu\ood\ood2024\lw1\lw1\Handlers.cpp(91,98): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\lw1\lw1\Handlers.cpp(91,98): warning C4244:         with
+E:\edu\ood\ood2024\lw1\lw1\Handlers.cpp(91,98): warning C4244:         [
+E:\edu\ood\ood2024\lw1\lw1\Handlers.cpp(91,98): warning C4244:             T=float
+E:\edu\ood\ood2024\lw1\lw1\Handlers.cpp(91,98): warning C4244:         ]
+E:\edu\ood\ood2024\lw1\lw1\Handlers.cpp(91,77): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
+E:\edu\ood\ood2024\lw1\lw1\Handlers.cpp(91,77): warning C4244:         with
+E:\edu\ood\ood2024\lw1\lw1\Handlers.cpp(91,77): warning C4244:         [
+E:\edu\ood\ood2024\lw1\lw1\Handlers.cpp(91,77): warning C4244:             T=float
+E:\edu\ood\ood2024\lw1\lw1\Handlers.cpp(91,77): warning C4244:         ]
+E:\edu\ood\ood2024\lw1\lw1\Handlers.cpp(152,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   Создание кода...
-x64\Debug\CircleDecorator.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
-x64\Debug\LoadCommand.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
-x64\Debug\SaveCommand.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
   lw1.vcxproj -> E:\edu\ood\ood2024\lw1\x64\Debug\lw1.exe
