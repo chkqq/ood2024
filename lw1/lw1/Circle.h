@@ -49,6 +49,12 @@ public:
     {
         return m_circle.getGlobalBounds().getPosition();
     };
+    void setPosition(const sf::Vector2f& position) override
+    {
+        m_circle.setPosition(position);
+        m_frame.setPosition(m_circle.getGlobalBounds().left, m_circle.getGlobalBounds().top);
+    }
+
     sf::Vector2f GetRightDownCorner() const override
     {
         return sf::Vector2f(m_circle.getGlobalBounds().getPosition().x + m_circle.getGlobalBounds().width, m_circle.getGlobalBounds().getPosition().y + m_circle.getGlobalBounds().height);
@@ -70,7 +76,9 @@ public:
     {
         return false;
     };
-
+    std::shared_ptr<Shape> clone() const override {
+        return std::make_shared<Circle>(*this);
+    }
     void accept(Visitor& visitor) override
     {
         visitor.visit(*this);

@@ -13,8 +13,9 @@ private:
     sf::RenderWindow window;
     std::vector<std::shared_ptr<Shape>> shapes;
     bool isMove;
+    bool isChanged;
+    bool lastActionWasMove = false;
     ToolBar toolbar;
-    Caretaker caretaker;
     std::vector<std::unique_ptr<Command>> commands;
 
     Application()
@@ -23,14 +24,17 @@ private:
     }
 
 public:
+    Caretaker caretaker;
     static std::shared_ptr<Application> getInstance()
     {
         if (!instance)
-            instance = std::shared_ptr<Application>(new Application()); // Используем std::shared_ptr
+            instance = std::shared_ptr<Application>(new Application());
         return instance;
     }
 
     void run();
 
-    void undoLastAction();
+    void Undo();
+    std::shared_ptr<Memento> Save();
+    void markChanged() { isChanged = true; }
 };

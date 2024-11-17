@@ -24,7 +24,7 @@ void ToolBar::setupButtons(sf::Font& font)
     buttons.emplace_back(buttonSize, sf::Vector2f(startX + 7 * (buttonSize.x + spacing), yPosition), sf::Color::Black, "Out Bl", font, std::make_unique<ChangeOutlineColorCommand>(sf::Color::Black));
     buttons.emplace_back(buttonSize, sf::Vector2f(startX + 8 * (buttonSize.x + spacing), yPosition), sf::Color::Magenta, "Out M", font, std::make_unique<ChangeOutlineColorCommand>(sf::Color::Magenta));
 
-    buttons.emplace_back(buttonSize, sf::Vector2f(startX + 9 * (buttonSize.x + spacing), yPosition), sf::Color::Cyan, "Th 1", font, std::make_unique<ChangeOutlineThicknessCommand>(0.5f));
+    buttons.emplace_back(buttonSize, sf::Vector2f(startX + 9 * (buttonSize.x + spacing), yPosition), sf::Color::Cyan, "Th 0", font, std::make_unique<ChangeOutlineThicknessCommand>(0.0f));
     buttons.emplace_back(buttonSize, sf::Vector2f(startX + 10 * (buttonSize.x + spacing), yPosition), sf::Color::Cyan, "Th 3", font, std::make_unique<ChangeOutlineThicknessCommand>(3.0f));
     buttons.emplace_back(buttonSize, sf::Vector2f(startX + 11 * (buttonSize.x + spacing), yPosition), sf::Color::Cyan, "Th 5", font, std::make_unique<ChangeOutlineThicknessCommand>(5.0f));
 
@@ -34,13 +34,15 @@ void ToolBar::setupButtons(sf::Font& font)
     buttons.emplace_back(buttonSize, sf::Vector2f(startX + 14 * (buttonSize.x + spacing), yPosition), sf::Color::Cyan, "Load", font, std::make_unique<LoadCommand>(loader));
 }
 
-void ToolBar::handleToolbarClick(const sf::Vector2i& mousePosition, std::vector<std::shared_ptr<Shape>>& shapes)
+void ToolBar::handleToolbarClick(const sf::Vector2i& mousePosition, std::vector<std::shared_ptr<Shape>>& shapes, Caretaker& caretaker)
 {
-    for (auto& button : buttons)
+    for (int i = 0; i < buttons.size(); i++)
     {
-        if (button.contains(mousePosition))
+        if (buttons[i].contains(mousePosition))
         {
-            button.executeCommand(shapes);
+            if (i != 12)
+                caretaker.Save(std::make_shared<Memento>(shapes));
+            buttons[i].executeCommand(shapes);
             break;
         }
     }
@@ -56,4 +58,16 @@ void ToolBar::draw(sf::RenderWindow& window)
 const std::vector<ToolBarButton>& ToolBar::getButtons() const
 {
     return buttons;
+}
+
+bool ToolBar::IsMouseOverButton(const sf::Vector2i& mousePosition) const
+{
+    for (const auto& button : buttons)
+    {
+        if (button.getGlobalBounds().contains(static_cast<sf::Vector2f>(mousePosition)))
+        {
+            return true;
+        }
+    }
+    return false;
 }

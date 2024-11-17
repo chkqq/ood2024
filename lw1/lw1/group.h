@@ -18,7 +18,7 @@ public:
         m_frame.setSize(sf::Vector2f(GetRightDownCorner().x - GetPosition().x, GetRightDownCorner().y - GetPosition().y));
         m_frame.setFillColor(sf::Color::Transparent);
         m_frame.setOutlineThickness(2);
-        m_frame.setOutlineColor(sf::Color::Green);
+        m_frame.setOutlineColor(sf::Color::Magenta);
     }
 
     void AddShape(std::shared_ptr<Shape> shape)
@@ -30,7 +30,14 @@ public:
     {
         m_group.erase(std::remove(m_group.begin(), m_group.end(), shape), m_group.end());
     }
+    std::shared_ptr<Shape> clone() const override {
+        auto newGroup = std::make_shared<Group>();
 
+        for (const auto& shape : m_group) {
+            newGroup->AddShape(shape->clone()); 
+        }
+        return newGroup;
+    }
     std::vector<std::shared_ptr<Shape>> GetShapes() { return m_group; }
 
     bool IsEmpty() const { return m_group.empty(); }
@@ -44,10 +51,11 @@ public:
     }
     std::string serialize() const override {
         std::ostringstream oss;
-        oss << "Group " << m_group.size() << "\n";
+        oss << "{\n";
         for (const auto& shape : m_group) {
             oss << shape->serialize() << "\n";
         }
+        oss << "}\n";
         return oss.str();
     }
     bool Contains(const sf::Vector2f& point) const override
@@ -72,6 +80,21 @@ public:
             return sf::Vector2f(minX, minY);
         }
         return sf::Vector2f(0, 0);
+    }
+    void setPosition(const sf::Vector2f& position) override
+    {
+        if (m_group.empty())
+            return;
+
+        sf::Vector2f currentPosition = GetPosition();
+        sf::Vector2f offset = position - currentPosition;
+
+        for (auto& shape : m_group)
+        {
+            shape->Move(offset); // Перемещаем каждую фигуру группы
+        }
+
+        MakeFrame(); // Обновляем рамку группы
     }
 
     sf::Vector2f GetRightDownCorner() const override

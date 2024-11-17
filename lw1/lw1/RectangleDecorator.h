@@ -48,7 +48,10 @@ public:
     {
         return m_shape->GetPosition();
     }
-
+    void setPosition(const sf::Vector2f& position) override
+    {
+        m_shape->setPosition(position);
+    }
     sf::Vector2f GetRightDownCorner() const override
     {
         return m_shape->GetRightDownCorner();
@@ -79,6 +82,10 @@ public:
         m_shape->accept(visitor);
     }
 
+    std::shared_ptr<Shape> clone() const override
+    {
+        return m_shape->clone();
+    }
 
 private:
     std::shared_ptr<Rectangle> m_shape;

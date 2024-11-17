@@ -1,6 +1,6 @@
 #pragma once
 #include "shape.h"
-
+#include "memory.h"
 class Rectangle : public Shape
 {
 private:
@@ -47,6 +47,12 @@ public:
     {
         return m_rectangle.getGlobalBounds().getPosition();
     };
+    void setPosition(const sf::Vector2f& position) override
+    {
+        m_rectangle.setPosition(position);
+        m_frame.setPosition(m_rectangle.getGlobalBounds().left, m_rectangle.getGlobalBounds().top);
+    }
+
     void Move(const sf::Vector2f& point) override
     {
         m_rectangle.move(point);
@@ -72,6 +78,11 @@ public:
     {
         visitor.visit(*this);
     }
+
+    std::shared_ptr<Shape> clone() const override {
+        return std::make_shared<Rectangle>(*this);  // Клонируем прямоугольник
+    }
+
     sf::RectangleShape& GetRectangleShape() { return m_rectangle; }
 
 };

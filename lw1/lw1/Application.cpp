@@ -1,6 +1,6 @@
 #include "Application.h"
 #include "handlers.h"
-
+#include "sstream"
 std::shared_ptr<Application> Application::instance = nullptr;
 
 void Application::run()
@@ -16,17 +16,20 @@ void Application::run()
 
     while (window.isOpen())
     {
-        caretaker.save(Memento(shapes));
-        handlers.ListenEvents(window, shapes, isMove, toolbar);
-        handlers.ShapesMoving(window, shapes, isMove);
+        handlers.ListenEvents(window, shapes, isMove, toolbar, caretaker);
+        handlers.ShapesMoving(window, shapes, isMove, caretaker, toolbar);
         window.clear(sf::Color::White);
         toolbar.draw(window);
         handlers.DrawShapes(window, shapes);
         window.display();
     }
 }
-void Application::undoLastAction() {
-    if (caretaker.hasUndo()) {
-        shapes = caretaker.undo().getState();
-    }
+
+std::shared_ptr<Memento> Application::Save() {
+    return std::make_shared<Memento>(shapes);
+}
+
+void Application::Undo() {
+    if (caretaker.CanUndo())
+       shapes = caretaker.Undo()->getState();
 }

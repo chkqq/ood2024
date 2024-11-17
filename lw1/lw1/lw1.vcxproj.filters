@@ -138,9 +138,6 @@
     <ClInclude Include="Visitor.h">
       <Filter>Файлы заголовков\Visitors</Filter>
     </ClInclude>
-    <ClInclude Include="GroupBuilder.h">
-      <Filter>Файлы заголовков\builders</Filter>
-    </ClInclude>
     <ClInclude Include="UndoCommand.h">
       <Filter>Файлы заголовков\commands</Filter>
     </ClInclude>
@@ -178,6 +175,9 @@
     </ClCompile>
     <ClCompile Include="SaveCommand.h">
       <Filter>Файлы заголовков\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBarButton.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

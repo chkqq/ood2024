@@ -10,6 +10,7 @@ public:
 	virtual double GetPerimeter() = 0;
 	virtual double GetArea() = 0;
 	virtual void PrintData(std::ofstream& output) = 0;
+	
 };
 
 #endif

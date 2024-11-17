@@ -60,6 +60,13 @@ public:
     {
         return m_triangle.getGlobalBounds().getPosition();
     }
+    void setPosition(const sf::Vector2f& position) override
+    {
+        auto bounds = m_triangle.getGlobalBounds();
+        sf::Vector2f offset = position - sf::Vector2f(bounds.left, bounds.top);
+        m_triangle.move(offset); // Перемещаем треугольник на нужный offset
+        UpdateFrame();           // Обновляем рамку
+    }
 
     void Move(const sf::Vector2f& offset) override
     {
@@ -73,7 +80,9 @@ public:
         return sf::Vector2f(bounds.left + bounds.width - m_triangle.getOutlineThickness(),
             bounds.top + bounds.height - m_triangle.getOutlineThickness());
     }
-
+    std::shared_ptr<Shape> clone() const override {
+        return std::make_shared<Triangle>(*this);
+    }
     void Select(bool select) override
     {
         m_isSelected = select;
@@ -92,5 +101,6 @@ public:
     {
         visitor.visit(*this);
     }
+
     sf::ConvexShape& GetTriangleShape() { return m_triangle; }
 };

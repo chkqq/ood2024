@@ -148,7 +148,6 @@
     <ClInclude Include="commands.h" />
     <ClInclude Include="decorators.h" />
     <ClInclude Include="FileManager.h" />
-    <ClInclude Include="GroupBuilder.h" />
     <ClInclude Include="MathDecorator.h" />
     <ClInclude Include="Memento.h" />
     <ClInclude Include="RectangleBuilder.h" />
@@ -182,6 +181,7 @@
     <ClCompile Include="SaveCommand.h" />
     <ClCompile Include="ShapeCreator.cpp" />
     <ClCompile Include="ToolBar.cpp" />
+    <ClCompile Include="ToolBarButton.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

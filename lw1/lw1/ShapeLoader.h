@@ -5,11 +5,10 @@
 #include <sstream>
 #include <stdexcept>
 #include "builders.h"
+#include "group.h"
 
 class ShapeLoader {
 public:
-
-    // Пример использования в ShapeLoader
     std::vector<std::shared_ptr<Shape>> loadFromFile(const std::string& filename) {
         std::ifstream file(filename);
         if (!file.is_open()) {
@@ -19,7 +18,6 @@ public:
         std::vector<std::shared_ptr<Shape>> shapes;
         std::string line;
 
-        // Создаем все доступные билдеры
         std::vector<std::unique_ptr<ShapeBuilder>> builders;
         builders.push_back(std::make_unique<CircleBuilder>());
         builders.push_back(std::make_unique<RectangleBuilder>());
@@ -30,27 +28,36 @@ public:
             std::string type;
             iss >> type;
 
-            std::unique_ptr<ShapeBuilder> builder;
+            if (type == "{") {
+                auto group = std::make_shared<Group>();
+                while (std::getline(file, line) && line != "}") {
+                    std::istringstream groupIss(line);
+                    std::string shapeType;
+                    groupIss >> shapeType;
 
-            if (type == "Circle") {
-                builder = std::make_unique<CircleBuilder>();
+                    std::unique_ptr<ShapeBuilder> builder = createBuilder(shapeType);
+                    if (builder) {
+                        builder->buildShape(line);
+                        auto shape = builder->getResult();
+                        if (shape) {
+                            group->AddShape(shape);
+                        }
+                        if (!group->IsEmpty())
+                        {
+                            group->MakeFrame();
+                        }
+                    }
+                }
+                shapes.push_back(group);
             }
-            else if (type == "Rectangle") {
-                builder = std::make_unique<RectangleBuilder>();
-            }
-            else if (type == "Triangle") {
-                builder = std::make_unique<TriangleBuilder>();
-            }
-            else if (type == "Group") {
-                // Для группы передаем список билдов
-                builder = std::make_unique<GroupBuilder>(builders);
-            }
-
-            if (builder) {
-                builder->buildShape(line);
-                auto shape = builder->getResult();
-                if (shape) {
-                    shapes.push_back(shape);
+            else {
+                std::unique_ptr<ShapeBuilder> builder = createBuilder(type);
+                if (builder) {
+                    builder->buildShape(line);
+                    auto shape = builder->getResult();
+                    if (shape) {
+                        shapes.push_back(shape);
+                    }
                 }
             }
         }
@@ -59,4 +66,17 @@ public:
         return shapes;
     }
 
+private:
+    std::unique_ptr<ShapeBuilder> createBuilder(const std::string& type) {
+        if (type == "Circle") {
+            return std::make_unique<CircleBuilder>();
+        }
+        else if (type == "Rectangle") {
+            return std::make_unique<RectangleBuilder>();
+        }
+        else if (type == "Triangle") {
+            return std::make_unique<TriangleBuilder>();
+        }
+        return nullptr;
+    }
 };

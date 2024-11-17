@@ -10,6 +10,6 @@
         LoadCommand(ShapeLoader& l) : loader(l) {}
 
         void execute(std::vector<std::shared_ptr<Shape>>& shapes) override {
-            shapes = loader.loadFromFile("in.txt");
+            shapes = loader.loadFromFile("out.txt");
         }
     };
