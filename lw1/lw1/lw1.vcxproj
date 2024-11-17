@@ -160,9 +160,9 @@
     <ClInclude Include="ToolBar.h" />
     <ClInclude Include="ToolBarButton.h" />
     <ClInclude Include="Triangle.h" />
-    <ClInclude Include="group.h" />
-    <ClInclude Include="handlers.h" />
-    <ClInclude Include="shape.h" />
+    <ClInclude Include="Group.h" />
+    <ClInclude Include="Handlers.h" />
+    <ClInclude Include="Shape.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="shapes.h" />
     <ClInclude Include="TriangleBuilder.h" />
@@ -171,17 +171,44 @@
     <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AddCircleCommand.cpp" />
+    <ClCompile Include="AddRectangleCommand.cpp" />
+    <ClCompile Include="AddTriangleCommand.cpp" />
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="builders.h" />
+    <ClCompile Include="Caretaker.cpp" />
+    <ClCompile Include="ChangeFillColorCommand.cpp" />
+    <ClCompile Include="ChangeFillColorVisitor.cpp" />
+    <ClCompile Include="ChangeOutlineColorCommand.cpp" />
+    <ClCompile Include="ChangeOutlineColorVisitor.cpp" />
+    <ClCompile Include="ChangeOutlineThicknessCommand.cpp" />
+    <ClCompile Include="ChangeOutlineThicknessVisitor.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="CircleDecorator.cpp" />
     <ClCompile Include="CircleDecorator.h" />
     <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="CircleBuilder.cpp" />
+    <ClCompile Include="Group.cpp" />
     <ClCompile Include="handlers.cpp" />
+    <ClCompile Include="LoadCommand.cpp" />
     <ClCompile Include="LoadCommand.h" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MathDecorator.cpp" />
+    <ClCompile Include="Memento.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="RectangleBuilder.cpp" />
+    <ClCompile Include="RectangleDecorator.cpp" />
+    <ClCompile Include="SaveCommand.cpp" />
     <ClCompile Include="SaveCommand.h" />
     <ClCompile Include="ShapeCreator.cpp" />
+    <ClCompile Include="ShapeLoader.cpp" />
+    <ClCompile Include="TextSaveStrategy.cpp" />
     <ClCompile Include="ToolBar.cpp" />
     <ClCompile Include="ToolBarButton.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="TriangleBuilder.cpp" />
+    <ClCompile Include="TriangleDecorator.cpp" />
+    <ClCompile Include="UndoCommand.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

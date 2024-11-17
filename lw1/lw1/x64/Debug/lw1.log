@@ -1,43 +1,8 @@
-﻿  Application.cpp
-  handlers.cpp
-E:\edu\ood\ood2024\lw1\lw1\handlers.cpp(91,98): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
-E:\edu\ood\ood2024\lw1\lw1\handlers.cpp(91,98): warning C4244:         with
-E:\edu\ood\ood2024\lw1\lw1\handlers.cpp(91,98): warning C4244:         [
-E:\edu\ood\ood2024\lw1\lw1\handlers.cpp(91,98): warning C4244:             T=float
-E:\edu\ood\ood2024\lw1\lw1\handlers.cpp(91,98): warning C4244:         ]
-E:\edu\ood\ood2024\lw1\lw1\handlers.cpp(91,77): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
-E:\edu\ood\ood2024\lw1\lw1\handlers.cpp(91,77): warning C4244:         with
-E:\edu\ood\ood2024\lw1\lw1\handlers.cpp(91,77): warning C4244:         [
-E:\edu\ood\ood2024\lw1\lw1\handlers.cpp(91,77): warning C4244:             T=float
-E:\edu\ood\ood2024\lw1\lw1\handlers.cpp(91,77): warning C4244:         ]
-E:\edu\ood\ood2024\lw1\lw1\handlers.cpp(152,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+﻿  LoadCommand.cpp
   LoadCommand.h
-  main.cpp
   ToolBar.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(403,82): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(403,82): warning C4244:         with
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(403,82): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(403,82): warning C4244:             _Ty=int
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(403,82): warning C4244:         ]
-  (компиляция исходного файла "ToolBar.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(403,82):
-      контекст создания экземпляра шаблона (сначала самый старый)
-          E:\edu\ood\ood2024\lw1\lw1\AddCircleCommand.h(9,31):
-          выполняется компиляция ссылки на экземпляр шаблон функции "std::shared_ptr<Circle> std::make_shared<Circle,int,sf::Vector2f>(int &&,sf::Vector2f &&)"
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(2906,46):
-          выполняется компиляция ссылки на экземпляр шаблон функции "std::_Ref_count_obj2<Circle>::_Ref_count_obj2<_Ty,sf::Vector2<float>>(_Ty &&,sf::Vector2<float> &&)"
-          with
-          [
-              _Ty=int
-          ]
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(2095,18):
-          выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Construct_in_place<_Ty,int,sf::Vector2<float>>(_Ty &,int &&,sf::Vector2<float> &&) noexcept(false)"
-          with
-          [
-              _Ty=Circle
-          ]
-  
-  ToolBarButton.cpp
   Создание кода...
-E:\edu\ood\ood2024\lw1\lw1\CareTaker.h(25,1): warning C4715: Caretaker::Undo: значение возвращается не при всех путях выполнения
+x64\Debug\CircleDecorator.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+x64\Debug\LoadCommand.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+x64\Debug\SaveCommand.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
   lw1.vcxproj -> E:\edu\ood\ood2024\lw1\x64\Debug\lw1.exe

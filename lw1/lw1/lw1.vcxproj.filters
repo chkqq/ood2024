@@ -25,12 +25,27 @@
     <Filter Include="Файлы заголовков\commands">
       <UniqueIdentifier>{3b5bd38e-83c3-4efb-a21d-dd4f4a59e4ec}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Visitors">
+    <Filter Include="Исходные файлы\visitors">
+      <UniqueIdentifier>{7f6fbf3a-7600-4716-a48b-80381c6517d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\visitors">
       <UniqueIdentifier>{b6b28207-547e-461e-b83b-b5a46560f0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\shapes">
+      <UniqueIdentifier>{d5343243-2f35-4bd3-b512-9e1a41a80514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\commands">
+      <UniqueIdentifier>{def4c714-a404-428e-b90c-0f5753167ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\builders">
+      <UniqueIdentifier>{e687adb9-4ab7-46e7-b01b-e4e158d4bb9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\decorators">
+      <UniqueIdentifier>{bc4287d1-56de-4881-bb4c-fe47183a781d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="handlers.h">
+    <ClInclude Include="Handlers.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Application.h">
@@ -75,10 +90,10 @@
     <ClInclude Include="shapes.h">
       <Filter>Файлы заголовков\shapes</Filter>
     </ClInclude>
-    <ClInclude Include="shape.h">
+    <ClInclude Include="Shape.h">
       <Filter>Файлы заголовков\shapes</Filter>
     </ClInclude>
-    <ClInclude Include="group.h">
+    <ClInclude Include="Group.h">
       <Filter>Файлы заголовков\shapes</Filter>
     </ClInclude>
     <ClInclude Include="TriangleDecorator.h">
@@ -127,16 +142,16 @@
       <Filter>Файлы заголовков\commands</Filter>
     </ClInclude>
     <ClInclude Include="ChangeFillColorVisitor.h">
-      <Filter>Файлы заголовков\Visitors</Filter>
+      <Filter>Файлы заголовков\visitors</Filter>
     </ClInclude>
     <ClInclude Include="ChangeOutlineColorVisitor.h">
-      <Filter>Файлы заголовков\Visitors</Filter>
+      <Filter>Файлы заголовков\visitors</Filter>
     </ClInclude>
     <ClInclude Include="ChangeOutlineThicknessVisitor.h">
-      <Filter>Файлы заголовков\Visitors</Filter>
+      <Filter>Файлы заголовков\visitors</Filter>
     </ClInclude>
     <ClInclude Include="Visitor.h">
-      <Filter>Файлы заголовков\Visitors</Filter>
+      <Filter>Файлы заголовков\visitors</Filter>
     </ClInclude>
     <ClInclude Include="UndoCommand.h">
       <Filter>Файлы заголовков\commands</Filter>
@@ -178,6 +193,87 @@
     </ClCompile>
     <ClCompile Include="ToolBarButton.cpp">
       <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSaveStrategy.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeLoader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Memento.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Caretaker.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeFillColorVisitor.cpp">
+      <Filter>Исходные файлы\visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeOutlineColorVisitor.cpp">
+      <Filter>Исходные файлы\visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeOutlineThicknessVisitor.cpp">
+      <Filter>Исходные файлы\visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Исходные файлы\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Исходные файлы\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Исходные файлы\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Исходные файлы\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoCommand.cpp">
+      <Filter>Исходные файлы\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveCommand.cpp">
+      <Filter>Исходные файлы\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeOutlineThicknessCommand.cpp">
+      <Filter>Исходные файлы\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeOutlineColorCommand.cpp">
+      <Filter>Исходные файлы\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeFillColorCommand.cpp">
+      <Filter>Исходные файлы\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTriangleCommand.cpp">
+      <Filter>Исходные файлы\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="AddRectangleCommand.cpp">
+      <Filter>Исходные файлы\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCircleCommand.cpp">
+      <Filter>Исходные файлы\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleBuilder.cpp">
+      <Filter>Исходные файлы\builders</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleBuilder.cpp">
+      <Filter>Исходные файлы\builders</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleBuilder.cpp">
+      <Filter>Исходные файлы\builders</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleDecorator.cpp">
+      <Filter>Исходные файлы\decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleDecorator.cpp">
+      <Filter>Исходные файлы\decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleDecorator.cpp">
+      <Filter>Исходные файлы\decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="MathDecorator.cpp">
+      <Filter>Исходные файлы\decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadCommand.cpp">
+      <Filter>Исходные файлы\commands</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -9,12 +9,10 @@
 class Application
 {
 private:
-    static std::shared_ptr<Application> instance; // Изменено на std::shared_ptr
+    static std::shared_ptr<Application> instance;
     sf::RenderWindow window;
     std::vector<std::shared_ptr<Shape>> shapes;
     bool isMove;
-    bool isChanged;
-    bool lastActionWasMove = false;
     ToolBar toolbar;
     std::vector<std::unique_ptr<Command>> commands;
 
@@ -36,5 +34,4 @@ public:
 
     void Undo();
     std::shared_ptr<Memento> Save();
-    void markChanged() { isChanged = true; }
 };

@@ -1,15 +1,14 @@
-    #pragma once
-    #include "ShapeLoader.h"
-    #include "Command.h"
+#pragma once
+#include "Command.h"
+#include "ShapeLoader.h"
+#include <memory>
+#include <vector>
 
-    class LoadCommand : public Command {
-    private:
-        ShapeLoader& loader;
+class LoadCommand : public Command {
+private:
+    ShapeLoader& loader;
 
-    public:
-        LoadCommand(ShapeLoader& l) : loader(l) {}
-
-        void execute(std::vector<std::shared_ptr<Shape>>& shapes) override {
-            shapes = loader.loadFromFile("out.txt");
-        }
-    };
+public:
+    LoadCommand(ShapeLoader& l);
+    void execute(std::vector<std::shared_ptr<Shape>>& shapes) override;
+};
